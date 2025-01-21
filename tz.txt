@@ -1,0 +1,210 @@
+Написать бот в телеграмме или веб приложение для составления плана операций на день в операционном блоке больницы.
+
+Должен состоять из клиентской части в которой заведующий отделением заполняет форму состоящую из порядкового номера операции и
+номера операций по очереди ( например 2.1; 2.2; 2.3; и т. д), далее пометка ВМП или платная операция или вич инфицированный больной
+или другие важные пометки. названия отделения ( например сосудистая хирургия) каждый заведующий может заполнять форму касающуюся
+только его отделения. Чтобы заведующий отделением не мог менять операции в других не относящихся к нему отделениям. Далее Фамилия
+больного, возраст (не обязательно, без указания возраста должно тоже работать) диагноз, название операции, и операционная бригада хирургов.
+(Лучше чтобы хирурги были в виде выпадающего списка которых в начале заведующий будет вносить, а спустя несколько циклов работы бота сам
+запомнил и предлагал из списка) операции тоже запоминались и предлагались в дальнейшем при написании начальных букв операции. 
+
+
+
+Административная часть (админ – заведующий оперблоком) 
+
+Заявки на операции заполненные заведующими отделениями в соответствии с правилами указанными выше стекаются в админскую часть бота и
+формируются в список операций на завтрашний день. Завтрашняя дата заполняется автоматически с возможностью изменения.
+( рабочие дни это будние дни. Соответственно в пятницу формируется операционный план на следующий понедельник.
+Иногда рабочая неделя шестидневная, следовательно должна быть возможность изменения админом даты плана). 
+
+Операции заполняются в операционный план в соответствии со следующими правилами ( с возможностью изменения админом.)
+т. е.Если в одной операционной мало операций можно будет перенести эту операцию в другую операционную посредством написания другого
+номера операционной и номера операции ( например заведующий написал 3.4 операция такая-то а админ перемещает ее в другую операционную
+написав возле этой операции 2.3 остальные данные (отделение фамилия диагноз операция и бригада без изменений переносятся в другую операционную) 
+
+Колопроктология в основном оперирует в 1 операционной 
+
+Сосудистая хирургия в основном оперирует во 2 операционной.
+
+Травматология в 3 операционной 
+
+Нейрохирургия в 4 и 5 операционных
+
+Хирургия в 6 и 7 операционных
+
+Торакальное и урология в 10 операционной 
+
+Гинекология в 11 операционной.
+
+
+
+Результат должен выводится в виде операционного плана в виде примерной таблицы с логотипом заведения в формате word
+(или pdf если сложно сделать в word) 
+
+
+
+Также отдельным планом заполняется заведующими урологии и оториноларингологии своих отдельных планов операции они заполняют аналогичные
+данные но в этих отдельных операционных нет необходимости перераспределять операции между операционными
+( т. е как они написали так в операционный план и записалось. Т. К. В этих расположенных в отделениях (а не в общем оперблоке) операционных
+могут оперировать только те отделения в которых они расположены ( урология в блоке литотрипсии и оториноларингология в операционной
+расположенной в отделении. 
+
+
+
+У админа должна быть возможность нажать кнопку и запретить дальнейшие изменения своих заявок на операции
+( т. Е. Админ допустим в 15:00 проверяет результат автоматического распределения по операционным, изменяет при необходимости очередность и
+номер операционной и включает опцию запретить изменения. После включения опции заведующие не могут добавлять или менять данные в своих заявках.
+При выключении функции. Появляется возможность изменить свою заявку заведующим в пределах своего отделения.) 
+
+Админов должно быть два. Заведующий оперблоком и старшая медсестра оперблока. С одинаковыми правами.
+
+Данные можно не хранить больше недели. Будут храниться при распечатывании в бумажном и электронном формате.
+
+заведующих отделениями админ приглашает по приглашению. Приглашение работает один раз. Чтобы не могли вмешиваться посторонние лица в
+работу бота.
+
+
+
+
+Telegramda bot yoki veb-ilovada kasalxonaning operatsion bo'limida bir kunlik operatsiyalar rejasini tuzing.
+
+U mijoz bo'limidan iborat bo'lishi kerak, unda bo'lim boshlig'i operatsiyaning seriya raqami va navbatdagi operatsiyalar sonidan iborat
+shaklni to'ldiradi (masalan, 2.1; 2.2; 2.3; va hokazo), so'ngra eslatma. yuqori texnologiyali tibbiy yordam yoki pullik operatsiya yoki
+OIV bilan kasallangan bemor yoki boshqa muhim eslatmalar. bo'limning nomi (masalan, qon tomir jarrohligi), har bir bo'lim boshlig'i faqat
+uning bo'limiga tegishli bo'lgan shaklni to'ldirishi mumkin. Bo'lim boshlig'ining o'ziga tegishli bo'lmagan boshqa bo'limlarda
+operatsiyalarini o'zgartirishiga yo'l qo'ymaslik. Keyingi: bemorning familiyasi, yoshi (kerak emas, yoshni ko'rsatmasdan u ham ishlashi kerak),
+tashxis, operatsiya nomi va jarrohlik guruhi. (Jarrohlar ochiladigan ro'yxat shaklida bo'lsa yaxshi bo'lardi, bu ro'yxatni menejer boshida
+kiritadi va bot ishining bir necha siklidan so'ng ularni eslab, ro'yxatdan taklif qilsa) operatsiyalar. operatsiyaning boshlang'ich harflarini
+yozishda ham eslab qolish va kelajakda taklif qilish.
+
+
+
+Ma'muriy qism (administrator - operatsion birlik boshlig'i)
+
+Bo'lim boshliqlari tomonidan yuqorida ko'rsatilgan qoidalarga muvofiq to'ldirilgan operatsiyalar uchun arizalar botning administrator
+qismida to'planadi va ertangi kun uchun operatsiyalar ro'yxati shakllantiriladi. Ertangi sana avtomatik ravishda o'zgartirish imkoniyati
+bilan to'ldiriladi. (Ish kunlari ish kunlari hisoblanadi. Shunga ko'ra, juma kuni keyingi dushanba uchun operativ reja tuziladi.
+Ba'zan ish haftasi olti kunni tashkil qiladi, shuning uchun ma'murga reja sanasini o'zgartirish imkoniyati bo'lishi kerak).
+
+Operatsiyalar operatsiya rejasida quyidagi qoidalarga muvofiq (administrator tomonidan o'zgartirish imkoniyati bilan) to'ldiriladi,
+ya'ni agar bitta operatsiya xonasida operatsiyalar kam bo'lsa, bu operatsiyani boshqa operatsiya xonasiga yozish orqali o'tkazish
+mumkin bo'ladi. turli xil operatsiya xonasi raqami va operatsiya raqami (masalan, bo'lim boshlig'i 3.4 deb yozgan, operatsiya
+shunday bo'ladi - keyin administrator uni boshqa operatsiya xonasiga o'tkazadi, bu operatsiya yoniga 2.3 qolgan ma'lumotlarni
+yozadi (bo'lim, oxirgi). nomi, diagnostikasi, operatsiyasi va guruhi o'zgartirilmagan holda boshqa operatsiya xonasiga o'tkaziladi)
+
+Koloproktologiya asosan 1 operatsiya xonasida ishlaydi
+
+Qon tomir jarrohligi asosan 2-operatsiya xonasida ishlaydi.
+
+3-operatsiya xonasida travmatologiya
+
+4 va 5 operatsiya xonalarida neyroxirurgiya
+
+6 va 7 operatsiya xonalarida jarrohlik
+
+10-operatsiya xonasida torakal va urologiya
+
+Operatsiya xonasida ginekologiya 11.
+
+
+
+Natija operatsion reja shaklida korxona logotipi bilan word formatida (yoki wordda qilish qiyin bo'lsa pdf) namunaviy jadval ko'rinishid
+ko'rsatilishi kerak.
+
+
+
+Shuningdek, urologiya va otorinolaringologiya bo'limlari rahbarlari tomonidan alohida rejalar to'ldiriladi, ular shunga o'xshash
+ma'lumotlarni to'ldiradilar, ammo bu alohida operatsiya xonalarida operatsiyalarni operatsiya xonalari o'rtasida qayta taqsimlashning
+hojati yo'q (ya'ni ular yozganidek), shuning uchun operatsiya rejasida qayd etilgan, chunki bu bo'limlarda joylashgan (umumiy operatsiya
+blokida emas) operatsiya xonalari faqat ular joylashgan bo'limlar (litotripsiya blokidagi urologiya va operatsiya xonasida otorinolaringologiya)
+tomonidan boshqarilishi mumkin. bo'limda.
+
+
+
+Administrator tugmani bosishi va jarrohlik so'rovlariga qo'shimcha o'zgartirishlar kiritishni taqiqlashi kerak (masalan, administrator,
+masalan, soat 15:00 da operatsiya xonalariga avtomatik tarqatish natijasini tekshiradi, kerak bo'lsa, tartib va ​​operatsiya xonasi
+raqamini o'zgartiradi, va o'zgarishlarni taqiqlash opsiyasini yoqadi, menejerlar o'z ilovalariga ma'lumotlarni qo'sha olmaydi yoki
+o'zgartira olmaydi.
+
+Ikkita admin bo'lishi kerak. Operatsiya bo'limi boshlig'i va operatsiya bo'limining katta hamshirasi. Teng huquqlar bilan.
+
+Ma'lumotlar bir haftadan ko'proq vaqt davomida saqlanishi mumkin emas. Qog'oz va elektron formatda chop etilganda saqlanadi.
+
+Administrator bo'lim boshliqlarini taklifnoma bilan taklif qiladi. Taklif bir marta ishlaydi. Uchinchi shaxslarning bot ishiga
+aralashishini oldini olish uchun.
+
+
+
+
+##########################################################################################################################################
+
+
+
+
+Loyiha mazmuni
+Loyihada ikkita asosiy foydalanuvchi roli bor:
+
+Bo‘lim boshlig‘i (klient qismi).
+Operatsion blok boshlig‘i yoki katta hamshira (admin qismi).
+Klient qismi: Bo‘lim boshlig‘i uchun imkoniyatlar
+Bo‘lim boshlig‘i o‘ziga tegishli bo‘limda quyidagilarni to‘ldiradi:
+
+Operatsiyalar ketma-ketligi: masalan, 2.1, 2.2, 2.3 va hokazo.
+Operatsiyalar turi:
+    VMP (maxsus tibbiy yordam),
+    Pulli operatsiya,
+    OIV infeksiyasi bilan bog‘liq bemorlar,
+    Yoki boshqa muhim eslatmalar.
+
+Bo‘lim nomi: masalan, qon-tomir jarrohligi, neyroxirurgiya va boshqalar.
+Bo‘lim boshlig‘i faqat o‘z bo‘limi bilan bog‘liq operatsiyalarni tahrirlashi mumkin, boshqa bo‘lim operatsiyalarini o‘zgartira olmaydi.
+
+Bemor ma’lumotlari:
+    Familiya,
+    Yosh (ko‘rsatish majburiy emas),
+    Diagnostika,
+    Operatsiya nomi,
+    Operatsion jamoa (jarrohlar). Jarrohlar avvaldan tizimga kiritiladi yoki keyin tizim avtomatik ravishda ro‘yxatga qo‘shadi.
+    Operatsiya turi va jamoasi:
+    Operatsiya nomlari va jarrohlarning ismlari tizimda saqlanadi, shunda keyinchalik yozganda avtomatik taklif qilish
+    funksiyasi mavjud bo‘ladi.
+
+Admin qismi: Operatsion blok boshlig‘i uchun imkoniyatlar
+
+Operatsiyalarni boshqarish:
+    Bo‘lim boshlig‘lari kiritgan ma’lumotlar admin qismida to‘planadi.
+    Bu ma’lumotlar asosida ertangi kun uchun operatsiyalar rejasi tuziladi.
+    Tizim avtomatik ravishda sanani belgilaydi (ertangi kun), lekin admin bu sanani o‘zgartirishi mumkin.
+    Agar ish haftasi besh kunlik bo‘lsa, juma kuni rejada dushanba uchun operatsiyalar tuziladi.
+    Agar ish haftasi olti kunlik bo‘lsa, admin sanani mos ravishda o‘zgartirishi mumkin.
+
+Operatsiyalarni qayta taqsimlash:
+    Operatsiyalar soni kam bo‘lgan operatsionlar bir-biriga taqsimlanishi mumkin.
+    Masalan, bo‘lim boshlig‘i 3.4 operatsiyani kiritgan bo‘lsa, admin uni 2.3 operatsionga o‘tkazishi mumkin
+    (bemorning familiyasi, diagnoz va jarrohlar tarkibi o‘zgarmasdan qoladi).
+
+Maxsus taqsimlash qoidalari:
+    Qon-tomir jarrohligi: 2-operatsion.
+    Neyroxirurgiya: 4 va 5-operatsion.
+    Travmatologiya: 3-operatsion.
+    Umumiy xirurgiya: 6 va 7-operatsion.
+    Urologiya va ginekologiya: 10 va 11-operatsion.
+
+Alohida bo‘limlar:
+    Urologiya va otorinolaringologiya bo‘limlari o‘z operatsion rejasini tuzadi. Ushbu bo‘limlarda operatsiyalar
+    boshqa operatsionlarga taqsimlanmaydi.
+
+Tahrir qilishni cheklash:
+    Admin ma’lumotlarni tekshirganidan keyin soat 15:00 da tahrirlash imkoniyatini yopishi mumkin.
+    Tahrirlash imkoniyati o‘chirilgandan so‘ng, bo‘lim boshlig‘lari faqat ma’lumotlarni ko‘ra oladi, o‘zgartira olmaydi.
+    Tahrirlash yana faollashtirilsa, bo‘lim boshlig‘lari faqat o‘z bo‘limidagi operatsiyalarni o‘zgartira oladi.
+
+Adminlar soni:
+    Ikki admin bo‘lishi mumkin:
+    Operatsion blok boshlig‘i,
+    Katta hamshira.
+    Ikkalasining huquqlari teng.
+
+Natija formati:
+    Tayyor rejani logotip bilan Word yoki PDF formatida yuklab olish va chop etish mumkin.
+

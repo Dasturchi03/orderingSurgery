@@ -1,0 +1,8 @@
+Django==5.1.1
+django-jazzmin==3.0.1
+reportlab==4.2.5
+weasyprint==63.1
+requests==2.22.0
+sqlparse==0.5.3
+tzlocal==5.2
+Pillow==11.1.0

@@ -1,0 +1,31 @@
+td input {
+    width: 100%;
+}
+
+.text-red {
+    color: red;
+}
+
+main {
+    min-height: 520px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin-top: 50px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.footer-text a {
+    color: #555;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    color: #000;
+    text-decoration: underline;
+}
