@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+{% load static %}
+{% block add_surgery %}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Добавить операцию для отдела {{ branch.name }}</h1>
+    <form method="post">
+        {% csrf_token %}
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <td class="w-25">
+                        <label for="full_name" class="form-label">Ф.И.О пациента<span class="text-red"> * </span></label>
+                    </td>
+                    <td>
+                        {{ form.full_name }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="age" class="form-label">Возраст</label>
+                    </td>
+                    <td>
+                        {{ form.age }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="diagnost" class="form-label">Диагноз<span class="text-red"> * </span></label>
+                    </td>
+                    <td>
+                        {{ form.diagnost }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="surgery_name" class="form-label">Название операции<span class="text-red"> * </span></label>
+                    </td>
+                    <td>
+                        <input type="text" name="surgery_name" id="surgery_name" class="form-control" placeholder="Введите название операции" required autocomplete="off">
+                        <ul id="suggestions_surgery_name" class="list-group" style="display: none;"></ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="surgery_type" class="form-label">Тип операции (Примечания)</label>
+                    </td>
+                    <td>
+                        <input type="text" name="surgery_type" id="surgery_type" class="form-control" placeholder="Введите тип операции" autocomplete="off">
+                        <ul id="suggestions_surgery_type" class="list-group" style="display: none;"></ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="surgeons" class="form-label">Хирурги<span class="text-red"> * </span></label>
+                    </td>
+                    <td>
+                        {% for surgeon in surgeons %}
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="surgeons" id="surgeon_{{ surgeon.id }}" value="{{ surgeon.id }}">
+                                <label class="form-check-label" for="surgeon_{{ surgeon.id }}">
+                                    {{ surgeon.full_name }}
+                                </label>
+                            </div>
+                        {% endfor %}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="row">
+            <div class="col">
+                <button type="submit" class="btn btn-primary w-100">Сохранить операцию</button>
+                <a href="/" class="btn btn-danger w-25 my-3">Отменить операцию</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#surgery_name").on('keyup', function() {
+            var query = $(this).val();
+            if (query.length) {
+                $.ajax({
+                    url: "{% url 'search_surgery_name' %}",
+                    data: { 'query': query },
+                    success: function(data) {
+                        $('#suggestions_surgery_name').empty().show();
+                        data.forEach(function(item) {
+                            $('#suggestions_surgery_name').append('<li class="list-group-item suggestion-item1" data-id="' + item.id + '">' + item.surgery_name + '</li>');
+                        });
+                    }
+                });
+            } else {
+                $('#suggestions_surgery_name').hide();
+            }
+        });
+    
+        $("#surgery_type").on('keyup', function() {
+            var query = $(this).val();
+            if (query.length) {
+                $.ajax({
+                    url: "{% url 'search_surgery_type' %}",
+                    data: { 'query': query },
+                    success: function(data) {
+                        $('#suggestions_surgery_type').empty().show();
+                        data.forEach(function(item) {
+                            $('#suggestions_surgery_type').append('<li class="list-group-item suggestion-item2" data-id="' + item.id + '">' + item.type_name + '</li>');
+                        });
+                    }
+                });
+            } else {
+                $('#suggestions_surgery_type').hide();
+            }
+        });
+    
+        $(document).on('click', '.suggestion-item1', function() {
+            var selectedName = $(this).text();
+            var selectedId = $(this).data('id');
+            
+            $('#surgery_name').val(selectedName);
+            $('#suggestions_surgery_name').hide();
+        });
+
+        $(document).on('click', '.suggestion-item2', function() {
+            var selectedName = $(this).text();
+            var selectedId = $(this).data('id');
+        
+            $('#surgery_type').val(selectedName);
+            $('#suggestions_surgery_type').hide();
+        });
+    });
+</script>    
+
+{% endblock add_surgery %}

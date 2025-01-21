@@ -1,0 +1,233 @@
+{% extends "base.html" %}
+{% load static %}
+{% block index %}
+<div class="container mt-5">
+    <h1 class="text-start d-flex">Журнал операций для 
+        <div class='d-flex'>
+            <input 
+                type="date" 
+                id="datePicker" 
+                class="form-control w-auto ms-3"
+                value="{{ day.date|date:'Y-m-d' }}"
+            >
+            <span class="ms-3">{{ day.date|date:"l"|default:"" }}
+        </div>
+        {% if day and user.is_superuser %}
+            {% if day.editable %}
+                <a href="{% url "editable_change" day.pk %}" class="btn btn-danger fs-3 ms-auto">
+                    Редактируемый
+                </a>
+            {% else %}
+                <a href="{% url "editable_change" day.pk %}" class="btn btn-info fs-3 ms-auto">
+                    Не редактируемый
+                </a>
+            {% endif %}
+        {% endif %}
+    </h1>
+    
+
+    {% for branch in branches %}
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h2 class="h5">Операционная {{ branch.branch_number }}</h2>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Отделение</th>
+                            <th>Ф.И.О пациента</th>
+                            <th>Возраст</th>
+                            <th>Диагноз</th>
+                            <th>Название операции</th>
+                            <th>Примечания</th>
+                            <th>Хирурги</th>
+                            {% if day.editable %}
+                                {% if user in branch.heads.all or user.is_superuser %}
+                                    <th>Действия</th>
+                                {% endif %}
+                            {% endif %}
+                        </tr>
+                    </thead>
+                    <tbody 
+                        class="{% if day.editable %}
+                                    {% if user in branch.heads.all or user.is_superuser %}
+                                        sortable-table
+                                    {% endif %}
+                                {% endif %}"
+                        data-id={{ branch.id }}
+                        data-number={{ branch.branch_number }}>
+                        {% for surgery in branch.surgeries.all %}
+                            <tr data-id="{{ surgery.id }}" data-seq-number="{{ surgery.seq_number }}">
+                                <td style="width: 60px;">
+                                    {% if day.editable and user.is_superuser %}
+                                        <input type="text" 
+                                               class="seq-input w-100" 
+                                               value="{{ branch.branch_number }}.{{ surgery.seq_number }}" 
+                                               data-id="{{ surgery.id }}" 
+                                               data-branch="{{ branch.id }}">
+                                    {% else %}
+                                        {{ branch.branch_number }}.<span>{{ surgery.seq_number }}</span>
+                                    {% endif %}
+                                </td>
+                                <td>{{ surgery.own_branch.name }}</td>
+                                <td>{{ surgery.full_name }}</td>
+                                <td>{% if surgery.age %}{{ surgery.age }}{% endif %}</td>
+                                <td>{{ surgery.diagnost }}</td>
+                                <td>{{ surgery.surgery_name.surgery_name }}</td>
+                                <td>{{ surgery.surgery_type.type_name }}</td>
+                                <td>
+                                    {% for surgeon in surgery.surgeons.all %}
+                                        <span>{{ surgeon.full_name }}</span>{% if not forloop.last %}, {% endif %}
+                                    {% endfor %}
+                                </td>
+                                {% if day.editable %}
+                                    {% if user in branch.heads.all or user.is_superuser %}
+                                    <td style="width: 200px;">
+                                        <a href="{% url 'edit_surgery' surgery.id %}" class="btn btn-sm btn-primary">Изменить</a>
+                                        <a class="btn btn-sm btn-danger delete-button" data-id="{{ surgery.id }}">Удалить</a>
+                                        <a class="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrows-vertical" viewBox="0 0 16 16">
+                                                <path d="M8.354 14.854a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 13.293V2.707L6.354 3.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 2.707v10.586l1.146-1.147a.5.5 0 0 1 .708.708z"/>
+                                            </svg>
+                                        </a>
+                                    </td>
+                                    {% endif %}
+                                {% endif %}
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                
+                {% if day.editable %}
+                    {% if user in branch.heads.all or user.is_superuser %}
+                        <a href="{% url 'add_surgery' branch.id %}?date={{ day.date|date:'Y-m-d' }}" class="btn btn-success">Добавить операцию</a>
+                    {% endif %}
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<script>
+    document.querySelectorAll('.delete-button').forEach(button => {
+        button.addEventListener('click', function () {
+            const surgeryId = this.getAttribute('data-id');
+            if (confirm("Вы уверены, что хотите удалить эту операцию?")) {
+                fetch(`/surgery/${surgeryId}/delete/`, {
+                    method: 'POST',
+                    headers: {
+                        'X-CSRFToken': '{{ csrf_token }}'
+                    },
+                })
+                .then(response => {
+                    if (response.ok) {
+                        location.reload();
+                    } else {
+                        alert("Error deleting the surgery.");
+                    }
+                });
+            }
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $(".sortable-table").each(function () {
+            const tableBody = $(this);
+            tableBody.sortable({
+                update: function (event, ui) {
+                    const updatedRows = [];
+                    const branchId = tableBody.data("id");
+                    const branchNumber = tableBody.data("number");
+    
+                    tableBody.find("tr").each(function (index) {
+                        const id = $(this).data("id");
+                        let newSeqNumber = index + 1;
+                        updatedRows.push({ id: id, seq_number: newSeqNumber });
+                        $(this).attr('data-seq-number', newSeqNumber);
+                        {% if user.is_superuser %}
+                            $(this).find("input").value = `${branchNumber}.${newSeqNumber}`;
+                            console.log(1111, $(this).find(".seq-input").value)
+                        {% else %}
+                            $(this).find("td:first").text(`${branchNumber}.${newSeqNumber}`);
+                        {% endif %}
+                    });
+    
+                    $.ajax({
+                        url: "{% url 'update_seq_number' %}",
+                        method: "POST",
+                        headers: {
+                            "X-CSRFToken": "{{ csrf_token }}",
+                        },
+                        data: JSON.stringify(updatedRows),
+                        contentType: "application/json",
+                        success: function (response) {
+                            if (response.success) {
+                                console.log("Сортировка успешно сохранена!");
+                            } else {
+                                console.error("Ошибка: " + response.error);
+                            }
+                        },
+                        error: function (xhr, status, error) {
+                            alert("Ошибка сохранения сортировки.");
+                        }
+                    });
+                }
+            });
+        });
+    });    
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.seq-input').forEach(input => {
+            input.addEventListener('change', function () {
+                const surgeryId = this.getAttribute('data-id');
+                const newSeqNumber = this.value.split('.')[1];
+                const newBranchNumber = this.value.split('.')[0];
+                const branchId = this.getAttribute('data-branch');
+                
+                fetch(`/update_surgery_seq/`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': '{{ csrf_token }}',
+                    },
+                    body: JSON.stringify({
+                        surgery_id: surgeryId,
+                        new_seq_number: newSeqNumber,
+                        new_branch_number: newBranchNumber,
+                        branch_id: branchId
+                    }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        location.reload();
+                    } else {
+                        alert("Xatolik yuz berdi: " + data.error);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            });
+        });
+    });
+</script>
+
+<script>
+    document.getElementById("datePicker").addEventListener("change", function () {
+        const selectedDate = this.value;
+        if (selectedDate) {
+            const newUrl = `${window.location.origin}/?date=${selectedDate}`;
+            window.location.href = newUrl;
+        }
+    });
+</script>
+
+
+{% endblock index %}
