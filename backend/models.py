@@ -95,7 +95,11 @@ class SurgeryName(models.Model):
 
 class Surgeon(models.Model):
     full_name = models.CharField(unique=True, max_length=255, verbose_name='Ф.И.О Хирурга')
+<<<<<<< HEAD
     branch = models.ManyToManyField(to="Branch", related_name="surgeons",  verbose_name="Отделении")
+=======
+    branch = models.ForeignKey(to="Branch", on_delete=models.CASCADE, related_name='surgeons', verbose_name="Отделение", null=True)
+>>>>>>> 81dc4b2 (Initial commit)
 
     class Meta:
         verbose_name = 'Хирург'
@@ -110,7 +114,10 @@ class Branch(models.Model):
 
     branch_choices = [(i, str(i)) for i in range(1, 20)]
     branch_number = models.IntegerField(verbose_name='Номер отдела', choices=branch_choices)
+<<<<<<< HEAD
     page_number = models.IntegerField(verbose_name='Номер страницы', default=1)
+=======
+>>>>>>> 81dc4b2 (Initial commit)
 
     class Meta:
         verbose_name = 'Отдел'
@@ -129,6 +136,7 @@ class Surgery(models.Model):
     diagnost = models.CharField(verbose_name='Диагноз', max_length=255)
     surgery_name = models.ForeignKey(to=SurgeryName, on_delete=models.CASCADE, related_name='surgeries')
     surgery_type = models.ForeignKey(to=SurgeryType, on_delete=models.CASCADE, related_name='surgeries', null=True, blank=True)
+<<<<<<< HEAD
     surgeons1 = models.ManyToManyField(to=Surgeon, related_name='surgerie')
     surgeons = models.ManyToManyField(to=Surgeon, related_name='surgeries', through='SurgerySurgeon')
     date_of_surgery = models.ForeignKey(to='SurgeryDay', on_delete=models.CASCADE, related_name='surgeries', verbose_name='Дата операции', null=True)
@@ -140,6 +148,11 @@ class Surgery(models.Model):
         blank=True,
         help_text='Например: "A(II) Rh+ + комментарий"'
     )
+=======
+    surgeons = models.ManyToManyField(to=Surgeon, related_name='surgeries')
+    date_of_surgery = models.ForeignKey(to='SurgeryDay', on_delete=models.CASCADE, related_name='surgeries', verbose_name='Дата операции', null=True)
+
+>>>>>>> 81dc4b2 (Initial commit)
     class Meta:
         verbose_name = 'Операция'
         verbose_name_plural = 'Операции'
@@ -148,6 +161,7 @@ class Surgery(models.Model):
         return self.surgery_name.surgery_name
 
 
+<<<<<<< HEAD
 class SurgerySurgeon(models.Model):
     surgery = models.ForeignKey(Surgery, on_delete=models.CASCADE)
     surgeon = models.ForeignKey(Surgeon, on_delete=models.CASCADE)
@@ -157,6 +171,8 @@ class SurgerySurgeon(models.Model):
         ordering = ['sequence']
 
 
+=======
+>>>>>>> 81dc4b2 (Initial commit)
 class SurgeryDay(models.Model):
     date = models.DateField(verbose_name='Дата операции', unique=True)
     editable = models.BooleanField(default=True)

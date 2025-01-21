@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import json
 import logging
 from collections import defaultdict
@@ -18,6 +19,26 @@ from weasyprint import HTML
 
 
 logger = logging.getLogger('__main__')
+=======
+import os
+import json
+from django.conf import settings
+from django.shortcuts import render, HttpResponse, get_object_or_404, redirect
+from django.http.request import HttpRequest, UnreadablePostError
+from .models import Branch
+from django.http import HttpResponseRedirect, JsonResponse
+from .models import Surgery, Branch, SurgeryName, SurgeryType, Surgeon, SurgeryDay
+from .forms import SurgeryForm, SurgeryEditForm
+from .functions import get_next_surgery_day, get_day, get_next_30_days, get_or_create_surgery_day
+from django.db.models.functions import Lower
+from django.views.decorators.csrf import csrf_exempt
+from django.db.models import Prefetch, Q
+from datetime import date, timedelta, datetime
+from django.template.loader import render_to_string
+from weasyprint import HTML
+
+
+>>>>>>> 81dc4b2 (Initial commit)
 dir_ = 'staticfiles/fonts/'
 
 
@@ -37,6 +58,7 @@ def home(request: HttpRequest):
             branches = []
         else:
             branches = Branch.objects.prefetch_related(
+<<<<<<< HEAD
                 Prefetch(
                     'surgeries',
                     queryset=Surgery.objects.filter(date_of_surgery=day)
@@ -69,6 +91,20 @@ def home(request: HttpRequest):
             )
         ).order_by('branch_number')
 
+=======
+                Prefetch('surgeries', queryset=Surgery.objects.filter(date_of_surgery=day).order_by('seq_number'))
+            ).order_by('branch_number')
+    else:
+        day = get_next_surgery_day()
+        print(day)
+        branches = Branch.objects.prefetch_related(
+            Prefetch('surgeries', queryset=Surgery.objects.filter(date_of_surgery=day).order_by('seq_number'))
+        ).order_by('branch_number')
+
+        queryset=Surgery.objects.filter(date_of_surgery=day)
+        print(len(queryset))
+    
+>>>>>>> 81dc4b2 (Initial commit)
     if branches and request.user.is_authenticated:
         qs = branches.filter(heads=request.user)
         if request.user.is_superuser:
@@ -86,6 +122,10 @@ def update_surgery_seq(request: HttpRequest):
         surgery_id = data.get('surgery_id')
         new_seq_number = data.get('new_seq_number')
         new_branch_number = data.get('new_branch_number')
+<<<<<<< HEAD
+=======
+        branch_id = data.get('branch_id')
+>>>>>>> 81dc4b2 (Initial commit)
 
         try:
             surgery = Surgery.objects.get(id=surgery_id)
@@ -102,14 +142,22 @@ def update_surgery_seq(request: HttpRequest):
             for index, item in enumerate(surgeries, start=1):
                 item.seq_number = index
                 item.save()
+<<<<<<< HEAD
                 logger.info(f'{item.seq_number} old')
+=======
+                print(item.seq_number, 'old')
+>>>>>>> 81dc4b2 (Initial commit)
 
             surgeries_in_new_branch = Surgery.objects.filter(branch_id=new_branch.pk).exclude(id=surgery.id).order_by('seq_number')
             for index, item in enumerate(surgeries_in_new_branch, start=1):
                 if index >= int(new_seq_number):
                     item.seq_number = index + 1
                     item.save()
+<<<<<<< HEAD
                     logger.info(f'{item.seq_number} new')
+=======
+                    print(item.seq_number, 'new')
+>>>>>>> 81dc4b2 (Initial commit)
 
             return JsonResponse({'success': True})
         except Surgery.DoesNotExist:
@@ -137,7 +185,13 @@ def add_surgery(request: HttpRequest, branch_id):
             return HttpResponse("Invalid date format.", status=400)
     else:
         day = get_next_surgery_day()
+<<<<<<< HEAD
     branch = get_object_or_404(Branch, id=branch_id)
+=======
+    
+    branch = get_object_or_404(Branch, id=branch_id)
+
+>>>>>>> 81dc4b2 (Initial commit)
     surgery_names = SurgeryName.objects.all()
     surgery_types = SurgeryType.objects.all()
     surgeons = Surgeon.objects.filter(branch=branch).order_by('full_name')
@@ -146,6 +200,7 @@ def add_surgery(request: HttpRequest, branch_id):
         form = SurgeryForm(request.POST)
 
         if form.is_valid():
+<<<<<<< HEAD
             surgery, sorted_surgeons = form.save(commit=False)
             surgery.branch = branch
             surgery.own_branch = branch
@@ -157,6 +212,17 @@ def add_surgery(request: HttpRequest, branch_id):
             return HttpResponseRedirect(f'/?date={date_str}')
         else:
             logger.error(form.errors)
+=======
+            surgery, surgeons = form.save(commit=False)
+            surgery.branch = branch
+            surgery.own_branch = branch
+            surgery.seq_number = Surgery.objects.filter(branch__id=branch_id).filter(date_of_surgery=day).count() + 1
+            surgery.save()
+            surgery.surgeons.set(surgeons)
+            return HttpResponseRedirect('/')
+        else:
+            print(form.errors)
+>>>>>>> 81dc4b2 (Initial commit)
             raise UnreadablePostError("Form is not valid!")
     else:
         form = SurgeryForm()
@@ -265,8 +331,13 @@ def generate_pdf(request: HttpRequest):
                                                             ).filter(heads=request.user
                                                                 ).order_by('branch_number')
         except Exception as err:
+<<<<<<< HEAD
             branches = Branch.objects.prefetch_related('surgeries').order_by('branch_number')
             logger.error(err)
+=======
+            branches = Branch.objects.prefetch_related('surgeries').all().order_by('branch_number')
+            print(err)
+>>>>>>> 81dc4b2 (Initial commit)
     else:
         return HttpResponse('Not found')
 
@@ -276,11 +347,17 @@ def generate_pdf(request: HttpRequest):
 
     branches_data = []
     for branch in branches:
+<<<<<<< HEAD
         assert isinstance(branch, Branch)
         surgeries = branch.surgeries.filter(date_of_surgery=day).order_by('seq_number')
         surgeries_data = []
         for surgery in surgeries:
             assert isinstance(surgery, Surgery)
+=======
+        surgeries = branch.surgeries.filter(date_of_surgery=day).order_by('seq_number')
+        surgeries_data = []
+        for surgery in surgeries:
+>>>>>>> 81dc4b2 (Initial commit)
             surgeons = [surgeon.full_name for surgeon in surgery.surgeons.all()]
             surgeries_data.append({
                 "number": f"{branch.branch_number}.{surgery.seq_number}",
@@ -288,11 +365,15 @@ def generate_pdf(request: HttpRequest):
                 "department": surgery.own_branch.name,
                 "patient_name": surgery.full_name,
                 "age": str(surgery.age) if surgery.age else "-",
+<<<<<<< HEAD
                 "blood_group": surgery.blood_group if surgery.blood_group else "-",
+=======
+>>>>>>> 81dc4b2 (Initial commit)
                 "diagnosis": surgery.diagnost,
                 "operation_name": surgery.surgery_name.surgery_name,
                 "surgeons": surgeons,
             })
+<<<<<<< HEAD
         if surgeries_data:
             branches_data.append({
                 "page_number": branch.page_number,
@@ -301,11 +382,18 @@ def generate_pdf(request: HttpRequest):
             })
 
     pages = sorted({j["page_number"] for j in branches_data})
+=======
+        branches_data.append({
+            "branch_number": branch.branch_number,
+            "surgeries": surgeries_data,
+        })
+>>>>>>> 81dc4b2 (Initial commit)
 
     content = {
         "date": date_str,
         "weekday": weekday_str,
         "branches": branches_data,
+<<<<<<< HEAD
         "pages": pages,
         "last_page": pages[-1]
     }
@@ -315,3 +403,17 @@ def generate_pdf(request: HttpRequest):
     response["Content-Disposition"] = f'inline; filename="operations_{day.date}.pdf"'
     HTML(string=html_content, base_url=request.build_absolute_uri()).write_pdf(response)
     return response
+=======
+    }
+    html_content = render_to_string("pdf_template.html", content)
+
+    # return render(request, 'pdf_template.html', context=content)
+
+    response = HttpResponse(content_type="application/pdf")
+    response["Content-Disposition"] = f'inline; filename="operations_{day.date}.pdf"'
+
+    base_url = settings.STATIC_URL if settings.DEBUG else settings.STATIC_ROOT
+    HTML(string=html_content, base_url=request.build_absolute_uri()).write_pdf(response)
+    return response
+
+>>>>>>> 81dc4b2 (Initial commit)

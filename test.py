@@ -11,7 +11,6 @@ from string import ascii_lowercase
 from datetime import date, timedelta
 from backend.functions import get_next_surgery_day
 
-
 def get_word_random():
     return ''.join([random.choice(ascii_lowercase) for _ in range(random.randint(8, 12))])
 

@@ -86,6 +86,7 @@
         <img src="{% static 'images/logo.png' %}" style="width: 100px; height: auto;" alt="">
         <h1>План операций на {{ date }} ({{ weekday }})</h1>
     </div>
+<<<<<<< HEAD
 
     {% for page in pages %}
         <table>
@@ -156,3 +157,87 @@
 </body>
 </html>
 
+=======
+    
+    <table>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Примечания</th>
+                <th>Отделение</th>
+                <th>Ф.И.О пациента</th>
+                <th>Возраст</th>
+                <th>Диагноз</th>
+                <th>Название операции</th>
+                <th>Хирурги</th>
+            </tr>
+        </thead>
+        {% for branch in branches %}
+            {% if branch.surgeries %}
+                {% if branch.branch_number != 13 and branch.branch_number != 16 and branch.branch_number != 17 %}
+                    <tbody>
+                        {% for surgery in branch.surgeries %}
+                        <tr>
+                            <td>{{ surgery.number }}</td>
+                            <td>{{ surgery.notes }}</td>
+                            <td>{{ surgery.department }}</td>
+                            <td>{{ surgery.patient_name }}</td>
+                            <td>{{ surgery.age }}</td>
+                            <td>{{ surgery.diagnosis }}</td>
+                            <td>{{ surgery.operation_name }}</td>
+                            <td>
+                                {% for surgeon in surgery.surgeons %}
+                                {{ surgeon }}<br>
+                                {% endfor %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </table>
+
+    <div class="page-break"></div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Примечания</th>
+                <th>Отделение</th>
+                <th>Ф.И.О пациента</th>
+                <th>Возраст</th>
+                <th>Диагноз</th>
+                <th>Название операции</th>
+                <th>Хирурги</th>
+            </tr>
+        </thead>
+        {% for branch in branches %}
+            {% if branch.surgeries %}
+                {% if branch.branch_number == 13 or branch.branch_number == 16 or branch.branch_number == 17 %}
+                    <tbody>
+                        {% for surgery in branch.surgeries %}
+                        <tr>
+                            <td>{{ surgery.number }}</td>
+                            <td>{{ surgery.notes }}</td>
+                            <td>{{ surgery.department }}</td>
+                            <td>{{ surgery.patient_name }}</td>
+                            <td>{{ surgery.age }}</td>
+                            <td>{{ surgery.diagnosis }}</td>
+                            <td>{{ surgery.operation_name }}</td>
+                            <td>
+                                {% for surgeon in surgery.surgeons %}
+                                {{ surgeon }}<br>
+                                {% endfor %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </table>
+</body>
+</html>
+>>>>>>> 81dc4b2 (Initial commit)
