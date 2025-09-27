@@ -5,6 +5,7 @@ from .functions import get_next_surgery_day
 
 
 BLOOD_GROUP_CHOICES = [
+    (None, "н/о"),
     ("O(I) Rh-", "O(I) Rh-"),
     ("O(I) Rh+", "O(I) Rh+"),
     ("A(II) Rh-", "A(II) Rh-"),
@@ -42,7 +43,7 @@ class SurgeryForm(forms.Form):
 
         bg = (self.cleaned_data.get('blood_group') or "").strip()
         bc = (self.cleaned_data.get('blood_comment') or "").strip()
-        bg_combined = f"{bg} | {bc}".strip(" +") if (bg or bc) else ""
+        bg_combined = f"{bg} | {bc}".strip(" +") if (bg or bc) else None
 
         surgery = Surgery(
             full_name=full_name,
@@ -127,7 +128,7 @@ class SurgeryEditForm(forms.Form):
         comment = (comment or "").strip()
         if group and comment:
             return f"{group} | {comment}"
-        return group or comment
+        return group or comment or "н/о"
 
     def clean(self):
         cleaned = super().clean()
