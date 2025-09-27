@@ -1,0 +1,1636 @@
+INFO 2025-07-05 10:10:53,201 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:11:02,322 basehttp "GET /?date=2025-02-06 HTTP/1.1" 200 127080
+INFO 2025-07-05 10:11:10,696 basehttp "POST /update_seq_number/ HTTP/1.1" 200 17
+INFO 2025-07-05 10:11:15,437 basehttp "POST /update_seq_number/ HTTP/1.1" 200 17
+INFO 2025-07-05 10:12:10,544 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\schedulers.py changed, reloading.
+INFO 2025-07-05 10:12:11,138 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:12:19,024 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\schedulers.py changed, reloading.
+INFO 2025-07-05 10:12:19,598 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:12:25,403 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\schedulers.py changed, reloading.
+INFO 2025-07-05 10:12:26,009 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:12:28,739 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\schedulers.py changed, reloading.
+INFO 2025-07-05 10:12:29,376 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:12:32,075 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\schedulers.py changed, reloading.
+INFO 2025-07-05 10:12:32,625 schedulers Scheduler started
+INFO 2025-07-05 10:12:32,649 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:12:35,412 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\schedulers.py changed, reloading.
+INFO 2025-07-05 10:12:36,072 schedulers Scheduler started
+INFO 2025-07-05 10:12:36,096 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:13:33,712 basehttp "GET /?date=2025-07-06 HTTP/1.1" 200 8442
+INFO 2025-07-05 10:14:09,520 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:14:10,102 schedulers Scheduler started
+INFO 2025-07-05 10:14:10,123 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:14:17,977 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:14:18,530 schedulers Scheduler started
+INFO 2025-07-05 10:14:18,551 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:14:34,642 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:14:35,343 schedulers Scheduler started
+INFO 2025-07-05 10:14:35,374 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:15:45,940 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:15:46,460 schedulers Scheduler started
+INFO 2025-07-05 10:15:46,482 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:15:49,218 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:15:49,736 schedulers Scheduler started
+INFO 2025-07-05 10:15:49,758 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:15:56,542 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:15:57,195 schedulers Scheduler started
+INFO 2025-07-05 10:15:57,221 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:15:58,882 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:15:59,401 schedulers Scheduler started
+INFO 2025-07-05 10:15:59,423 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:16:02,174 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:16:02,834 schedulers Scheduler started
+INFO 2025-07-05 10:16:02,870 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:16:29,334 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:16:29,853 schedulers Scheduler started
+INFO 2025-07-05 10:16:29,877 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:16:31,663 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:16:32,239 schedulers Scheduler started
+INFO 2025-07-05 10:16:32,262 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:17:44,933 basehttp "GET /?date=2025-07-07 HTTP/1.1" 200 37360
+INFO 2025-07-05 10:17:47,119 basehttp "GET /?date=2025-07-06 HTTP/1.1" 200 8442
+INFO 2025-07-05 10:18:26,069 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\functions.py changed, reloading.
+INFO 2025-07-05 10:18:26,583 schedulers Scheduler started
+INFO 2025-07-05 10:18:26,604 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:18:29,225 basehttp "GET /?date=2025-07-06 HTTP/1.1" 200 28769
+INFO 2025-07-05 10:18:32,894 basehttp "GET /editable/33/ HTTP/1.1" 302 0
+INFO 2025-07-05 10:18:32,901 views 06/07/2025
+INFO 2025-07-05 10:18:32,930 basehttp "GET / HTTP/1.1" 200 37360
+INFO 2025-07-05 10:18:34,781 basehttp "GET /editable/33/ HTTP/1.1" 302 0
+INFO 2025-07-05 10:18:34,786 views 06/07/2025
+INFO 2025-07-05 10:18:34,793 basehttp "GET / HTTP/1.1" 200 28769
+INFO 2025-07-05 10:18:36,219 basehttp "GET /editable/33/ HTTP/1.1" 302 0
+INFO 2025-07-05 10:18:36,223 views 06/07/2025
+INFO 2025-07-05 10:18:36,264 basehttp "GET / HTTP/1.1" 200 37360
+INFO 2025-07-05 10:18:37,818 basehttp "GET /editable/33/ HTTP/1.1" 302 0
+INFO 2025-07-05 10:18:37,822 views 06/07/2025
+INFO 2025-07-05 10:18:37,829 basehttp "GET / HTTP/1.1" 200 28769
+INFO 2025-07-05 10:19:24,903 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\functions.py changed, reloading.
+INFO 2025-07-05 10:19:25,486 schedulers Scheduler started
+INFO 2025-07-05 10:19:25,508 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:19:29,225 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\functions.py changed, reloading.
+INFO 2025-07-05 10:19:29,756 schedulers Scheduler started
+INFO 2025-07-05 10:19:29,778 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:19:34,490 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\functions.py changed, reloading.
+INFO 2025-07-05 10:19:35,140 schedulers Scheduler started
+INFO 2025-07-05 10:19:35,165 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:19:36,876 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\functions.py changed, reloading.
+INFO 2025-07-05 10:19:37,465 schedulers Scheduler started
+INFO 2025-07-05 10:19:37,492 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:19:41,270 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\functions.py changed, reloading.
+INFO 2025-07-05 10:19:41,835 schedulers Scheduler started
+INFO 2025-07-05 10:19:41,859 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:20:06,126 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:20:06,658 schedulers Scheduler started
+INFO 2025-07-05 10:20:06,679 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:21:28,379 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:21:28,960 schedulers Scheduler started
+INFO 2025-07-05 10:21:28,984 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:22:41,710 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:22:42,293 schedulers Scheduler started
+INFO 2025-07-05 10:22:42,323 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:22:49,279 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:22:49,789 schedulers Scheduler started
+INFO 2025-07-05 10:22:49,810 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:22:54,555 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:22:55,060 schedulers Scheduler started
+INFO 2025-07-05 10:22:55,082 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:23:02,343 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:23:02,813 schedulers Scheduler started
+INFO 2025-07-05 10:23:02,834 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:32:25,887 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 10:32:26,199 basehttp "GET /download-pdf/?date=2025-07-06 HTTP/1.1" 200 24527
+INFO 2025-07-05 10:42:23,033 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\models.py changed, reloading.
+INFO 2025-07-05 10:42:23,609 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:42:29,874 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\models.py changed, reloading.
+INFO 2025-07-05 10:42:30,336 schedulers Scheduler started
+INFO 2025-07-05 10:42:30,358 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:43:04,072 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\models.py changed, reloading.
+INFO 2025-07-05 10:43:04,602 schedulers Scheduler started
+INFO 2025-07-05 10:43:04,624 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:43:12,448 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\models.py changed, reloading.
+INFO 2025-07-05 10:43:13,112 schedulers Scheduler started
+INFO 2025-07-05 10:43:13,137 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:43:55,800 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:43:56,377 schedulers Scheduler started
+INFO 2025-07-05 10:43:56,404 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:43:58,089 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:43:58,726 schedulers Scheduler started
+INFO 2025-07-05 10:43:58,754 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:44:00,920 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:44:01,409 schedulers Scheduler started
+INFO 2025-07-05 10:44:01,432 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:44:02,601 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:44:03,039 schedulers Scheduler started
+INFO 2025-07-05 10:44:03,059 autoreload Watching for file changes with StatReloader
+ERROR 2025-07-05 10:46:49,063 log Internal Server Error: /download-pdf/
+Traceback (most recent call last):
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: backend_branch.page_number
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Any\C\C_03_03_25\ru_med_project\backend\views.py", line 278, in generate_pdf
+    for branch in branches:
+                  ^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: backend_branch.page_number
+ERROR 2025-07-05 10:46:49,072 basehttp "GET /download-pdf/?date=2025-07-06 HTTP/1.1" 500 134615
+INFO 2025-07-05 10:47:00,050 schedulers Scheduler started
+INFO 2025-07-05 10:47:14,173 schedulers Scheduler started
+INFO 2025-07-05 10:47:14,621 schedulers Scheduler started
+INFO 2025-07-05 10:47:14,645 autoreload Watching for file changes with StatReloader
+ERROR 2025-07-05 10:47:18,089 log Internal Server Error: /download-pdf/
+Traceback (most recent call last):
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: backend_branch.page_number
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Any\C\C_03_03_25\ru_med_project\backend\views.py", line 278, in generate_pdf
+    for branch in branches:
+                  ^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: backend_branch.page_number
+ERROR 2025-07-05 10:47:18,096 basehttp "GET /download-pdf/?date=2025-07-06 HTTP/1.1" 500 134615
+INFO 2025-07-05 10:47:45,175 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:47:45,686 schedulers Scheduler started
+INFO 2025-07-05 10:47:45,710 autoreload Watching for file changes with StatReloader
+ERROR 2025-07-05 10:47:47,679 log Internal Server Error: /download-pdf/
+Traceback (most recent call last):
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: backend_branch.page_number
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Any\C\C_03_03_25\ru_med_project\backend\views.py", line 278, in generate_pdf
+    for branch in branches:
+                  ^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: backend_branch.page_number
+ERROR 2025-07-05 10:47:47,686 basehttp "GET /download-pdf/?date=2025-07-06 HTTP/1.1" 500 134752
+INFO 2025-07-05 10:48:01,129 schedulers Scheduler started
+INFO 2025-07-05 10:48:04,739 schedulers Scheduler started
+INFO 2025-07-05 10:48:05,220 schedulers Scheduler started
+INFO 2025-07-05 10:48:05,249 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:48:06,145 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 10:48:06,232 basehttp "GET /download-pdf/?date=2025-07-06 HTTP/1.1" 200 24664
+ERROR 2025-07-05 10:49:55,664 log Internal Server Error: /download-pdf/
+Traceback (most recent call last):
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\loader_tags.py", line 199, in render
+    template = context.template.engine.select_template(template_name)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\engine.py", line 214, in select_template
+    raise TemplateDoesNotExist(", ".join(not_found))
+django.template.exceptions.TemplateDoesNotExist: pdf_template_table.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Any\C\C_03_03_25\ru_med_project\backend\views.py", line 306, in generate_pdf
+    html_content = render_to_string("pdf_template.html", content)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\backends\django.py", line 109, in render
+    reraise(exc, self.backend)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\backends\django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: pdf_template_table.html
+ERROR 2025-07-05 10:49:55,671 basehttp "GET /download-pdf/?date=2025-07-06 HTTP/1.1" 500 131683
+INFO 2025-07-05 10:50:18,624 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 10:50:18,656 basehttp "GET /download-pdf/?date=2025-07-06 HTTP/1.1" 200 24527
+INFO 2025-07-05 10:51:36,717 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 10:51:37,211 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 41280
+INFO 2025-07-05 10:52:26,225 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:52:26,801 schedulers Scheduler started
+INFO 2025-07-05 10:52:26,822 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:52:49,039 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:52:49,543 schedulers Scheduler started
+INFO 2025-07-05 10:52:49,564 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:52:55,379 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:52:55,901 schedulers Scheduler started
+INFO 2025-07-05 10:52:55,922 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:53:03,163 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:53:03,656 schedulers Scheduler started
+INFO 2025-07-05 10:53:03,680 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:53:06,869 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:53:07,306 schedulers Scheduler started
+INFO 2025-07-05 10:53:07,329 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:53:32,916 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:53:33,456 schedulers Scheduler started
+INFO 2025-07-05 10:53:33,486 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:53:35,678 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:53:36,205 schedulers Scheduler started
+INFO 2025-07-05 10:53:36,229 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:53:51,640 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:53:52,102 schedulers Scheduler started
+INFO 2025-07-05 10:53:52,123 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:54:22,800 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:54:23,260 schedulers Scheduler started
+INFO 2025-07-05 10:54:23,281 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:55:09,238 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:55:09,814 schedulers Scheduler started
+INFO 2025-07-05 10:55:09,841 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:55:13,065 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:55:13,533 schedulers Scheduler started
+INFO 2025-07-05 10:55:13,556 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:55:14,699 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:55:15,240 schedulers Scheduler started
+INFO 2025-07-05 10:55:15,265 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:55:17,448 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:55:17,912 schedulers Scheduler started
+INFO 2025-07-05 10:55:17,933 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:55:23,142 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:55:23,604 schedulers Scheduler started
+INFO 2025-07-05 10:55:23,624 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:55:36,547 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:55:37,201 schedulers Scheduler started
+INFO 2025-07-05 10:55:37,231 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:55:41,046 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:55:41,547 schedulers Scheduler started
+INFO 2025-07-05 10:55:41,572 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:55:48,826 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:55:49,284 schedulers Scheduler started
+INFO 2025-07-05 10:55:49,306 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:55:54,541 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:55:54,976 schedulers Scheduler started
+INFO 2025-07-05 10:55:54,997 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:56:13,452 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:56:13,988 schedulers Scheduler started
+INFO 2025-07-05 10:56:14,009 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:56:16,169 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:56:16,663 schedulers Scheduler started
+INFO 2025-07-05 10:56:16,686 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:56:17,822 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:56:18,269 schedulers Scheduler started
+INFO 2025-07-05 10:56:18,292 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:56:35,728 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:56:36,222 schedulers Scheduler started
+INFO 2025-07-05 10:56:36,251 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:56:37,958 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:56:38,481 schedulers Scheduler started
+INFO 2025-07-05 10:56:38,504 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:56:42,705 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:56:43,142 schedulers Scheduler started
+INFO 2025-07-05 10:56:43,164 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:56:45,838 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:56:46,419 schedulers Scheduler started
+INFO 2025-07-05 10:56:46,442 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:56:49,626 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:56:50,070 schedulers Scheduler started
+INFO 2025-07-05 10:56:50,090 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:56:54,691 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:56:55,241 schedulers Scheduler started
+INFO 2025-07-05 10:56:55,263 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:57:49,222 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:57:49,852 schedulers Scheduler started
+INFO 2025-07-05 10:57:49,874 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:57:54,664 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:57:55,159 schedulers Scheduler started
+INFO 2025-07-05 10:57:55,179 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:58:05,047 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:58:05,725 schedulers Scheduler started
+INFO 2025-07-05 10:58:05,753 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:58:15,087 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:58:15,533 schedulers Scheduler started
+INFO 2025-07-05 10:58:15,554 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:58:40,824 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:58:41,352 schedulers Scheduler started
+INFO 2025-07-05 10:58:41,374 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:58:43,081 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:58:43,639 schedulers Scheduler started
+INFO 2025-07-05 10:58:43,660 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:59:00,691 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:59:01,236 schedulers Scheduler started
+INFO 2025-07-05 10:59:01,260 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:59:03,971 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:59:04,615 schedulers Scheduler started
+INFO 2025-07-05 10:59:04,637 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:59:09,394 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:59:09,960 schedulers Scheduler started
+INFO 2025-07-05 10:59:09,986 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:59:19,847 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:59:20,399 schedulers Scheduler started
+INFO 2025-07-05 10:59:20,423 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:59:24,185 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:59:24,780 schedulers Scheduler started
+INFO 2025-07-05 10:59:24,804 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:59:25,942 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:59:26,415 schedulers Scheduler started
+INFO 2025-07-05 10:59:26,440 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:59:33,289 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:59:33,810 schedulers Scheduler started
+INFO 2025-07-05 10:59:33,831 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 10:59:36,640 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 10:59:37,176 schedulers Scheduler started
+INFO 2025-07-05 10:59:37,198 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:00:00,425 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:00:01,031 schedulers Scheduler started
+INFO 2025-07-05 11:00:01,056 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:00:19,186 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\models.py changed, reloading.
+INFO 2025-07-05 11:00:19,757 schedulers Scheduler started
+INFO 2025-07-05 11:00:19,780 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:02:29,703 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\admin.py changed, reloading.
+INFO 2025-07-05 11:02:30,286 schedulers Scheduler started
+INFO 2025-07-05 11:02:30,306 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:02:34,012 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\admin.py changed, reloading.
+INFO 2025-07-05 11:02:34,522 schedulers Scheduler started
+INFO 2025-07-05 11:02:34,543 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:02:37,197 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\admin.py changed, reloading.
+INFO 2025-07-05 11:02:37,809 schedulers Scheduler started
+INFO 2025-07-05 11:02:37,838 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:02:42,588 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\admin.py changed, reloading.
+INFO 2025-07-05 11:02:43,138 schedulers Scheduler started
+INFO 2025-07-05 11:02:43,159 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:02:51,012 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\admin.py changed, reloading.
+INFO 2025-07-05 11:02:51,530 schedulers Scheduler started
+INFO 2025-07-05 11:02:51,552 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:02:57,205 basehttp "GET /admin/ HTTP/1.1" 200 41447
+INFO 2025-07-05 11:02:57,295 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-07-05 11:02:57,297 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-07-05 11:02:57,309 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-07-05 11:02:57,362 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-07-05 11:02:57,363 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-07-05 11:02:57,367 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-07-05 11:02:57,392 basehttp "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-07-05 11:02:57,405 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-07-05 11:02:57,724 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-07-05 11:02:57,725 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-07-05 11:03:02,520 basehttp "GET /admin/backend/branch/ HTTP/1.1" 200 42655
+INFO 2025-07-05 11:03:02,556 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-07-05 11:03:02,558 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-07-05 11:03:02,570 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-07-05 11:03:02,570 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-07-05 11:03:02,570 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-07-05 11:03:02,577 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-07-05 11:03:02,577 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-07-05 11:03:02,589 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:03:02,595 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-07-05 11:03:02,618 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-07-05 11:03:02,657 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-07-05 11:03:08,093 basehttp "GET /admin/backend/branch/20/change/ HTTP/1.1" 200 59226
+INFO 2025-07-05 11:03:08,121 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:03:08,133 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-07-05 11:03:08,133 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-07-05 11:03:08,142 basehttp "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+INFO 2025-07-05 11:03:08,160 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-07-05 11:03:08,164 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-07-05 11:03:08,167 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-07-05 11:03:08,167 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-07-05 11:03:10,354 basehttp "GET /admin/backend/branch/ HTTP/1.1" 200 42655
+INFO 2025-07-05 11:03:31,288 basehttp "GET /admin/backend/branch/12/change/ HTTP/1.1" 200 55392
+INFO 2025-07-05 11:03:31,313 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:03:51,497 basehttp "POST /admin/backend/branch/12/change/ HTTP/1.1" 302 0
+INFO 2025-07-05 11:03:51,514 basehttp "GET /admin/backend/branch/ HTTP/1.1" 200 43291
+INFO 2025-07-05 11:03:51,538 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:03:55,873 basehttp "GET /admin/backend/branch/14/change/ HTTP/1.1" 200 59224
+INFO 2025-07-05 11:03:55,895 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:04:00,208 basehttp "POST /admin/backend/branch/14/change/ HTTP/1.1" 302 0
+INFO 2025-07-05 11:04:00,226 basehttp "GET /admin/backend/branch/ HTTP/1.1" 200 43313
+INFO 2025-07-05 11:04:00,256 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:04:02,864 basehttp "GET /admin/backend/branch/20/change/ HTTP/1.1" 200 59226
+INFO 2025-07-05 11:04:02,887 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:04:05,746 basehttp "POST /admin/backend/branch/20/change/ HTTP/1.1" 302 0
+INFO 2025-07-05 11:04:05,763 basehttp "GET /admin/backend/branch/ HTTP/1.1" 200 43313
+INFO 2025-07-05 11:04:05,793 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:04:08,779 basehttp "GET /admin/ HTTP/1.1" 200 41589
+INFO 2025-07-05 11:04:10,506 views 06/07/2025
+INFO 2025-07-05 11:04:10,515 basehttp "GET / HTTP/1.1" 200 28769
+INFO 2025-07-05 11:04:15,728 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:04:15,833 basehttp "GET /download-pdf/?date=2025-07-06 HTTP/1.1" 200 25372
+INFO 2025-07-05 11:05:02,192 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:05:02,851 schedulers Scheduler started
+INFO 2025-07-05 11:05:02,877 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:05:06,082 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:05:06,540 schedulers Scheduler started
+INFO 2025-07-05 11:05:06,562 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:05:12,328 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:05:12,864 schedulers Scheduler started
+INFO 2025-07-05 11:05:12,895 autoreload Watching for file changes with StatReloader
+ERROR 2025-07-05 11:05:15,417 log Internal Server Error: /download-pdf/
+Traceback (most recent call last):
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Any\C\C_03_03_25\ru_med_project\backend\views.py", line 301, in generate_pdf
+    for dc in branches_data: dc["page_number"] = pages[dc["page_number"]]
+                                                 ~~~~~^^^^^^^^^^^^^^^^^^^
+KeyError: 1
+ERROR 2025-07-05 11:05:15,419 basehttp "GET /download-pdf/?date=2025-07-06 HTTP/1.1" 500 75762
+INFO 2025-07-05 11:05:57,828 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:05:58,325 schedulers Scheduler started
+INFO 2025-07-05 11:05:58,347 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:06:01,341 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:06:01,417 basehttp "GET /download-pdf/?date=2025-07-06 HTTP/1.1" 200 23687
+INFO 2025-07-05 11:06:09,394 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:06:09,880 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 41529
+INFO 2025-07-05 11:06:34,402 basehttp "GET /admin/ HTTP/1.1" 200 41595
+INFO 2025-07-05 11:06:39,661 basehttp "GET /admin/backend/branch/ HTTP/1.1" 200 42655
+INFO 2025-07-05 11:06:39,688 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:06:43,372 basehttp "GET /admin/backend/branch/17/change/ HTTP/1.1" 200 55337
+INFO 2025-07-05 11:06:43,398 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:06:46,607 basehttp "POST /admin/backend/branch/17/change/ HTTP/1.1" 302 0
+INFO 2025-07-05 11:06:46,693 basehttp "GET /admin/backend/branch/ HTTP/1.1" 200 43263
+INFO 2025-07-05 11:06:46,719 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:06:47,781 basehttp "GET /admin/backend/branch/17/change/ HTTP/1.1" 200 55337
+INFO 2025-07-05 11:06:51,078 basehttp "POST /admin/backend/branch/17/change/ HTTP/1.1" 302 0
+INFO 2025-07-05 11:06:51,101 basehttp "GET /admin/backend/branch/ HTTP/1.1" 200 43264
+INFO 2025-07-05 11:06:51,128 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:06:54,450 basehttp "GET /admin/backend/branch/4/change/ HTTP/1.1" 200 55330
+INFO 2025-07-05 11:06:54,472 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:06:58,841 basehttp "POST /admin/backend/branch/4/change/ HTTP/1.1" 302 0
+INFO 2025-07-05 11:06:58,864 basehttp "GET /admin/backend/branch/ HTTP/1.1" 200 43264
+INFO 2025-07-05 11:06:58,891 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:07:02,571 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:07:03,111 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 43137
+INFO 2025-07-05 11:07:24,646 basehttp "GET /admin/backend/branch/20/change/ HTTP/1.1" 200 59226
+INFO 2025-07-05 11:07:24,670 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:08:35,847 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:08:36,511 schedulers Scheduler started
+INFO 2025-07-05 11:08:36,543 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:08:39,427 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:08:39,988 schedulers Scheduler started
+INFO 2025-07-05 11:08:40,012 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:08:41,393 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:08:41,836 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 43137
+INFO 2025-07-05 11:08:59,331 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:08:59,911 schedulers Scheduler started
+INFO 2025-07-05 11:08:59,933 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:09:02,892 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:09:03,250 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 43137
+INFO 2025-07-05 11:10:37,254 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:10:37,817 schedulers Scheduler started
+INFO 2025-07-05 11:10:37,841 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:10:41,577 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:10:42,080 schedulers Scheduler started
+INFO 2025-07-05 11:10:42,102 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:10:45,790 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:10:46,351 schedulers Scheduler started
+INFO 2025-07-05 11:10:46,373 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:10:50,563 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:10:51,056 schedulers Scheduler started
+INFO 2025-07-05 11:10:51,077 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:10:52,213 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:10:52,710 schedulers Scheduler started
+INFO 2025-07-05 11:10:52,731 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:11:01,585 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:11:02,099 schedulers Scheduler started
+INFO 2025-07-05 11:11:02,120 autoreload Watching for file changes with StatReloader
+ERROR 2025-07-05 11:11:05,021 log Internal Server Error: /download-pdf/
+Traceback (most recent call last):
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Any\C\C_03_03_25\ru_med_project\backend\views.py", line 308, in generate_pdf
+    "pages": sorted(pages.values())
+                    ^^^^^^^^^^^^
+AttributeError: 'set' object has no attribute 'values'
+ERROR 2025-07-05 11:11:05,024 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 500 82799
+INFO 2025-07-05 11:11:13,151 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:11:13,650 schedulers Scheduler started
+INFO 2025-07-05 11:11:13,670 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:11:19,443 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:11:20,053 schedulers Scheduler started
+INFO 2025-07-05 11:11:20,077 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:11:21,055 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:11:21,458 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 42762
+INFO 2025-07-05 11:11:45,230 basehttp "GET /admin/backend/branch/ HTTP/1.1" 200 42657
+INFO 2025-07-05 11:11:49,681 basehttp "GET /admin/backend/branch/?o=3 HTTP/1.1" 200 43549
+INFO 2025-07-05 11:11:49,705 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,706 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,710 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,712 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,712 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,713 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,713 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,717 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,719 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,719 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,719 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,719 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,720 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,723 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,725 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-07-05 11:11:49,726 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,726 basehttp "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,739 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:11:49,739 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-07-05 11:12:22,278 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:12:22,591 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 42762
+INFO 2025-07-05 11:14:55,521 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:14:55,627 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 33935
+INFO 2025-07-05 11:16:44,657 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:16:45,190 schedulers Scheduler started
+INFO 2025-07-05 11:16:45,211 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:16:49,414 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:16:49,853 schedulers Scheduler started
+INFO 2025-07-05 11:16:49,873 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:16:56,098 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:16:56,566 schedulers Scheduler started
+INFO 2025-07-05 11:16:56,598 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:16:59,791 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:17:00,244 schedulers Scheduler started
+INFO 2025-07-05 11:17:00,265 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:17:02,432 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:17:02,926 schedulers Scheduler started
+INFO 2025-07-05 11:17:02,948 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:17:05,114 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:17:05,820 schedulers Scheduler started
+INFO 2025-07-05 11:17:05,849 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:17:12,116 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:17:12,604 schedulers Scheduler started
+INFO 2025-07-05 11:17:12,642 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:17:13,792 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:17:14,351 schedulers Scheduler started
+INFO 2025-07-05 11:17:14,379 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:17:15,530 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:17:16,059 schedulers Scheduler started
+INFO 2025-07-05 11:17:16,082 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:17:23,912 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:17:24,469 schedulers Scheduler started
+INFO 2025-07-05 11:17:24,493 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:17:28,212 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:17:28,763 schedulers Scheduler started
+INFO 2025-07-05 11:17:28,787 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:17:33,503 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:17:34,062 schedulers Scheduler started
+INFO 2025-07-05 11:17:34,086 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:17:41,343 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:17:41,819 schedulers Scheduler started
+INFO 2025-07-05 11:17:41,839 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:17:43,522 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:17:44,095 schedulers Scheduler started
+INFO 2025-07-05 11:17:44,118 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:17:47,836 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:17:48,345 schedulers Scheduler started
+INFO 2025-07-05 11:17:48,365 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:17:50,418 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:17:50,568 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 33935
+INFO 2025-07-05 11:17:50,727 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:17:50,856 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 33935
+INFO 2025-07-05 11:18:01,480 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:18:02,018 schedulers Scheduler started
+INFO 2025-07-05 11:18:02,040 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:18:04,023 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:18:04,178 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 33935
+INFO 2025-07-05 11:18:25,381 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:18:25,944 schedulers Scheduler started
+INFO 2025-07-05 11:18:25,966 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:18:28,142 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:18:28,661 schedulers Scheduler started
+INFO 2025-07-05 11:18:28,684 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:18:32,413 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:18:33,043 schedulers Scheduler started
+INFO 2025-07-05 11:18:33,070 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:18:35,810 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:18:36,058 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 33935
+INFO 2025-07-05 11:19:15,348 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:19:15,918 schedulers Scheduler started
+INFO 2025-07-05 11:19:15,945 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:19:17,114 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:19:17,652 schedulers Scheduler started
+INFO 2025-07-05 11:19:17,673 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:19:20,877 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:19:21,434 schedulers Scheduler started
+INFO 2025-07-05 11:19:21,456 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:19:24,631 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:19:25,075 schedulers Scheduler started
+INFO 2025-07-05 11:19:25,098 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:19:28,788 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:19:29,418 schedulers Scheduler started
+INFO 2025-07-05 11:19:29,440 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:19:34,185 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:19:34,751 schedulers Scheduler started
+INFO 2025-07-05 11:19:34,774 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:19:36,538 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:19:37,061 schedulers Scheduler started
+INFO 2025-07-05 11:19:37,085 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:19:39,815 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:19:40,390 schedulers Scheduler started
+INFO 2025-07-05 11:19:40,415 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:19:41,512 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:19:41,683 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 33935
+INFO 2025-07-05 11:20:03,671 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:20:04,205 schedulers Scheduler started
+INFO 2025-07-05 11:20:04,231 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:20:06,540 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:20:06,699 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 33935
+INFO 2025-07-05 11:21:28,517 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:21:28,620 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 33935
+INFO 2025-07-05 11:22:13,293 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:22:13,402 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 33868
+INFO 2025-07-05 11:24:39,479 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:24:40,104 schedulers Scheduler started
+INFO 2025-07-05 11:24:40,125 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:30:05,895 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:30:06,587 schedulers Scheduler started
+INFO 2025-07-05 11:30:06,614 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:30:08,776 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:30:09,261 schedulers Scheduler started
+INFO 2025-07-05 11:30:09,290 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:30:11,025 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:30:11,526 schedulers Scheduler started
+INFO 2025-07-05 11:30:11,546 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:30:25,529 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:30:26,075 schedulers Scheduler started
+INFO 2025-07-05 11:30:26,098 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:30:29,846 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:30:30,343 schedulers Scheduler started
+INFO 2025-07-05 11:30:30,365 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:30:35,075 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:30:35,606 schedulers Scheduler started
+INFO 2025-07-05 11:30:35,631 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:30:59,894 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:31:00,394 schedulers Scheduler started
+INFO 2025-07-05 11:31:00,415 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:31:04,140 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:31:04,655 schedulers Scheduler started
+INFO 2025-07-05 11:31:04,676 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:31:06,360 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:31:06,850 schedulers Scheduler started
+INFO 2025-07-05 11:31:06,870 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:31:12,616 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:31:13,099 schedulers Scheduler started
+INFO 2025-07-05 11:31:13,120 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:31:15,796 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:31:16,329 schedulers Scheduler started
+INFO 2025-07-05 11:31:16,350 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:31:23,101 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:31:23,600 schedulers Scheduler started
+INFO 2025-07-05 11:31:23,622 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:31:25,288 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:31:25,792 schedulers Scheduler started
+INFO 2025-07-05 11:31:25,813 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:31:32,569 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:31:33,134 schedulers Scheduler started
+INFO 2025-07-05 11:31:33,160 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:31:35,845 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:31:36,416 schedulers Scheduler started
+INFO 2025-07-05 11:31:36,440 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:31:43,218 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:31:43,704 schedulers Scheduler started
+INFO 2025-07-05 11:31:43,726 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:31:46,409 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:31:46,913 schedulers Scheduler started
+INFO 2025-07-05 11:31:46,934 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:31:57,810 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:31:58,361 schedulers Scheduler started
+INFO 2025-07-05 11:31:58,383 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:32:04,176 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:32:04,661 schedulers Scheduler started
+INFO 2025-07-05 11:32:04,682 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:32:10,473 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:32:10,979 schedulers Scheduler started
+INFO 2025-07-05 11:32:11,001 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:32:41,377 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:32:41,870 schedulers Scheduler started
+INFO 2025-07-05 11:32:41,891 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:32:57,916 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:32:58,424 schedulers Scheduler started
+INFO 2025-07-05 11:32:58,446 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:33:20,618 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:33:21,140 schedulers Scheduler started
+INFO 2025-07-05 11:33:21,164 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:33:23,863 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:33:24,374 schedulers Scheduler started
+INFO 2025-07-05 11:33:24,407 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:34:10,205 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:34:10,704 schedulers Scheduler started
+INFO 2025-07-05 11:34:10,724 autoreload Watching for file changes with StatReloader
+ERROR 2025-07-05 11:34:54,821 log Internal Server Error: /download-pdf/
+Traceback (most recent call last):
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Any\C\C_03_03_25\ru_med_project\backend\views.py", line 313, in generate_pdf
+    html_content = render_to_string("pdf_template.html", content)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[page]' from 'branches_by_page[page]'
+ERROR 2025-07-05 11:34:54,827 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 500 218941
+INFO 2025-07-05 11:36:56,727 schedulers Scheduler started
+INFO 2025-07-05 11:36:57,124 schedulers Scheduler started
+INFO 2025-07-05 11:36:57,145 autoreload Watching for file changes with StatReloader
+ERROR 2025-07-05 11:37:00,139 log Internal Server Error: /download-pdf/
+Traceback (most recent call last):
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Any\C\C_03_03_25\ru_med_project\backend\views.py", line 313, in generate_pdf
+    html_content = render_to_string("pdf_template.html", content)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\defaulttags.py", line 1531, in do_with
+    extra_context = token_kwargs(remaining_bits, parser, support_legacy=True)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 1119, in token_kwargs
+    kwargs[key] = parser.compile_filter(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 701, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "D:\Any\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\template\base.py", line 611, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'get'
+ERROR 2025-07-05 11:37:00,146 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 500 236243
+INFO 2025-07-05 11:37:43,048 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:37:43,698 schedulers Scheduler started
+INFO 2025-07-05 11:37:43,720 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:37:44,862 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:37:45,351 schedulers Scheduler started
+INFO 2025-07-05 11:37:45,374 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:37:47,536 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:37:47,969 schedulers Scheduler started
+INFO 2025-07-05 11:37:47,989 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:38:25,772 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:38:26,345 schedulers Scheduler started
+INFO 2025-07-05 11:38:26,366 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:38:27,502 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:38:28,006 schedulers Scheduler started
+INFO 2025-07-05 11:38:28,026 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:38:30,714 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:38:31,229 schedulers Scheduler started
+INFO 2025-07-05 11:38:31,250 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:38:37,027 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:38:37,529 schedulers Scheduler started
+INFO 2025-07-05 11:38:37,550 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:38:43,337 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:38:43,825 schedulers Scheduler started
+INFO 2025-07-05 11:38:43,846 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:38:51,646 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:38:52,174 schedulers Scheduler started
+INFO 2025-07-05 11:38:52,197 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:38:55,898 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:38:56,474 schedulers Scheduler started
+INFO 2025-07-05 11:38:56,512 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:39:19,117 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:39:19,487 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 42422
+INFO 2025-07-05 11:40:31,476 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:40:32,090 schedulers Scheduler started
+INFO 2025-07-05 11:40:32,112 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:40:34,278 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:40:34,701 schedulers Scheduler started
+INFO 2025-07-05 11:40:34,721 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:40:43,546 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:40:44,031 schedulers Scheduler started
+INFO 2025-07-05 11:40:44,052 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:40:46,730 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:40:47,386 schedulers Scheduler started
+INFO 2025-07-05 11:40:47,413 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:40:49,122 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:40:49,685 schedulers Scheduler started
+INFO 2025-07-05 11:40:49,706 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:40:50,845 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:40:51,306 schedulers Scheduler started
+INFO 2025-07-05 11:40:51,327 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:41:21,888 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-07-05 11:41:22,435 basehttp "GET /download-pdf/?date=2025-02-06 HTTP/1.1" 200 42295
+INFO 2025-07-05 11:43:18,554 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:43:19,067 schedulers Scheduler started
+INFO 2025-07-05 11:43:19,090 autoreload Watching for file changes with StatReloader
+INFO 2025-07-05 11:43:34,079 autoreload D:\Any\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-07-05 11:43:34,605 schedulers Scheduler started
+INFO 2025-07-05 11:43:34,628 autoreload Watching for file changes with StatReloader
+INFO 2025-09-25 22:57:35,115 schedulers Scheduler started
+INFO 2025-09-25 22:57:35,742 schedulers Scheduler started
+INFO 2025-09-25 22:57:35,772 autoreload Watching for file changes with StatReloader
+INFO 2025-09-25 22:57:40,864 views 26/09/2025
+INFO 2025-09-25 22:57:41,211 basehttp "GET / HTTP/1.1" 200 29774
+INFO 2025-09-25 22:57:41,427 basehttp "GET /static/js/script.js HTTP/1.1" 200 0
+INFO 2025-09-25 22:57:41,435 basehttp "GET /static/css/style.css HTTP/1.1" 200 445
+INFO 2025-09-25 22:57:41,435 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-25 22:57:46,273 basehttp "GET /login/ HTTP/1.1" 200 3154
+INFO 2025-09-25 22:57:50,428 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2025-09-25 22:57:50,437 views 26/09/2025
+INFO 2025-09-25 22:57:50,492 basehttp "GET / HTTP/1.1" 200 37352
+ERROR 2025-09-25 22:58:04,074 log Internal Server Error: /download-pdf/
+Traceback (most recent call last):
+  File "D:\Any\FL\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Any\FL\C\C_03_03_25\ru_med_project\venv1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py", line 308, in generate_pdf
+    "last_page": pages[-1]
+                 ~~~~~^^^^
+IndexError: list index out of range
+ERROR 2025-09-25 22:58:04,079 basehttp "GET /download-pdf/?date=2025-09-26 HTTP/1.1" 500 73845
+WARNING 2025-09-25 22:58:04,233 log Not Found: /favicon.ico
+WARNING 2025-09-25 22:58:04,233 basehttp "GET /favicon.ico HTTP/1.1" 404 5764
+INFO 2025-09-25 22:58:18,732 basehttp "GET /?date=2025-03-14 HTTP/1.1" 200 37352
+INFO 2025-09-25 22:59:20,150 basehttp "GET /?date=2025-01-21 HTTP/1.1" 200 28760
+INFO 2025-09-25 22:59:23,961 basehttp "GET /?date=2025-01-20 HTTP/1.1" 200 95314
+INFO 2025-09-25 22:59:27,519 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-25 22:59:29,074 basehttp "GET /download-pdf/?date=2025-01-20 HTTP/1.1" 200 53764
+INFO 2025-09-25 22:59:38,699 basehttp "GET /admin/ HTTP/1.1" 200 43196
+INFO 2025-09-25 22:59:38,742 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-25 22:59:38,743 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-09-25 22:59:38,756 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-25 22:59:38,782 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-25 22:59:38,782 basehttp "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-25 22:59:38,790 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-25 22:59:38,792 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-25 22:59:38,814 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-25 22:59:39,155 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-09-25 22:59:39,157 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-09-25 22:59:44,116 basehttp "GET /admin/backend/surgeon/ HTTP/1.1" 200 78450
+INFO 2025-09-25 22:59:44,164 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-25 22:59:44,167 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-25 22:59:44,180 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-25 22:59:44,180 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-25 22:59:44,189 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-09-25 22:59:44,198 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-09-25 22:59:44,198 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-25 22:59:44,199 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-25 22:59:44,222 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-09-25 22:59:44,241 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-25 22:59:44,285 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-25 22:59:45,674 basehttp "GET /admin/backend/surgery/ HTTP/1.1" 200 95218
+INFO 2025-09-25 22:59:45,705 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-09-25 22:59:56,522 basehttp "GET /admin/backend/surgeryday/ HTTP/1.1" 200 46429
+INFO 2025-09-25 22:59:56,558 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-09-25 22:59:57,926 basehttp "GET /admin/backend/surgeryday/35/change/ HTTP/1.1" 200 31939
+INFO 2025-09-25 22:59:57,965 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-09-25 22:59:57,987 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-25 22:59:57,987 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-25 22:59:57,992 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-09-25 22:59:57,993 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-09-25 22:59:58,028 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-09-25 23:00:00,150 basehttp "GET /admin/backend/branch/ HTTP/1.1" 200 42657
+INFO 2025-09-25 23:00:00,203 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-09-27 10:17:39,283 schedulers Scheduler started
+INFO 2025-09-27 10:17:39,918 schedulers Scheduler started
+INFO 2025-09-27 10:17:39,942 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:17:45,301 views 28/09/2025
+INFO 2025-09-27 10:17:45,424 basehttp "GET / HTTP/1.1" 200 28769
+INFO 2025-09-27 10:21:32,885 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:21:33,717 schedulers Scheduler started
+INFO 2025-09-27 10:21:33,744 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:21:55,951 schedulers Scheduler started
+INFO 2025-09-27 10:21:56,580 schedulers Scheduler started
+INFO 2025-09-27 10:21:56,605 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:22:00,252 basehttp "GET /editable/36/ HTTP/1.1" 302 0
+INFO 2025-09-27 10:22:00,264 views 28/09/2025
+INFO 2025-09-27 10:22:00,322 basehttp "GET / HTTP/1.1" 200 37360
+INFO 2025-09-27 10:22:01,756 basehttp "GET /add_surgery/2?date=2025-09-28 HTTP/1.1" 200 14965
+INFO 2025-09-27 10:22:06,020 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 37352
+INFO 2025-09-27 10:22:07,234 basehttp "GET /add_surgery/2?date=2025-10-03 HTTP/1.1" 200 14965
+INFO 2025-09-27 10:22:14,085 basehttp "GET /search_surgery_name/?query=g HTTP/1.1" 200 2
+INFO 2025-09-27 10:22:16,411 basehttp "GET /search_surgery_name/?query=%D0%B0 HTTP/1.1" 200 944
+INFO 2025-09-27 10:22:18,806 basehttp "GET /search_surgery_type/?query=%D0%B0 HTTP/1.1" 200 317
+INFO 2025-09-27 10:22:18,871 basehttp "GET /search_surgery_type/?query=%D0%B0%D0%B0 HTTP/1.1" 200 2
+INFO 2025-09-27 10:22:21,607 basehttp "GET /search_surgery_type/?query=%D0%BF%D0%B0 HTTP/1.1" 200 78
+INFO 2025-09-27 10:22:21,646 basehttp "GET /search_surgery_type/?query=%D0%BF%D0%B0 HTTP/1.1" 200 78
+INFO 2025-09-27 10:22:25,395 basehttp "POST /add_surgery/2?date=2025-10-03 HTTP/1.1" 302 0
+INFO 2025-09-27 10:22:25,403 views 28/09/2025
+INFO 2025-09-27 10:22:25,473 basehttp "GET / HTTP/1.1" 200 37360
+INFO 2025-09-27 10:22:30,232 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 39765
+INFO 2025-09-27 10:23:44,828 basehttp "POST /update_surgery_seq/ HTTP/1.1" 200 17
+INFO 2025-09-27 10:23:44,921 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 39765
+INFO 2025-09-27 10:27:56,590 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:27:57,611 schedulers Scheduler started
+INFO 2025-09-27 10:27:57,653 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:28:02,742 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:28:03,580 schedulers Scheduler started
+INFO 2025-09-27 10:28:03,606 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:28:05,801 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:28:06,469 schedulers Scheduler started
+INFO 2025-09-27 10:28:06,492 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:28:07,648 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:28:08,423 schedulers Scheduler started
+INFO 2025-09-27 10:28:08,449 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:28:14,348 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:28:15,135 schedulers Scheduler started
+INFO 2025-09-27 10:28:15,165 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:28:17,114 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:28:17,777 schedulers Scheduler started
+INFO 2025-09-27 10:28:17,803 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:28:19,977 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:28:20,684 schedulers Scheduler started
+INFO 2025-09-27 10:28:20,710 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:28:21,880 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:28:22,650 schedulers Scheduler started
+INFO 2025-09-27 10:28:22,677 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:29:21,548 views 1 old
+INFO 2025-09-27 10:29:21,553 views 2 old
+INFO 2025-09-27 10:29:21,558 views 3 old
+INFO 2025-09-27 10:29:21,562 views 4 old
+INFO 2025-09-27 10:29:21,567 views 5 old
+INFO 2025-09-27 10:29:21,572 views 6 old
+INFO 2025-09-27 10:29:21,577 views 7 old
+INFO 2025-09-27 10:29:21,582 views 8 old
+INFO 2025-09-27 10:29:21,587 views 9 old
+INFO 2025-09-27 10:29:21,592 views 10 old
+INFO 2025-09-27 10:29:21,598 views 11 old
+INFO 2025-09-27 10:29:21,603 views 12 old
+INFO 2025-09-27 10:29:21,608 views 13 old
+INFO 2025-09-27 10:29:21,613 views 14 old
+INFO 2025-09-27 10:29:21,619 views 15 old
+INFO 2025-09-27 10:29:21,623 views 16 old
+INFO 2025-09-27 10:29:21,629 views 17 old
+INFO 2025-09-27 10:29:21,634 views 18 old
+INFO 2025-09-27 10:29:21,640 views 19 old
+INFO 2025-09-27 10:29:21,645 views 20 old
+INFO 2025-09-27 10:29:21,650 views 21 old
+INFO 2025-09-27 10:29:21,655 views 22 old
+INFO 2025-09-27 10:29:21,660 views 23 old
+INFO 2025-09-27 10:29:21,665 views 24 old
+INFO 2025-09-27 10:29:21,670 views 25 old
+INFO 2025-09-27 10:29:21,675 views 26 old
+INFO 2025-09-27 10:29:21,679 views 27 old
+INFO 2025-09-27 10:29:21,684 views 28 old
+INFO 2025-09-27 10:29:21,689 views 29 old
+INFO 2025-09-27 10:29:21,694 views 30 old
+INFO 2025-09-27 10:29:21,699 views 31 old
+INFO 2025-09-27 10:29:21,704 views 32 old
+INFO 2025-09-27 10:29:21,709 views 33 old
+INFO 2025-09-27 10:29:21,714 views 34 old
+INFO 2025-09-27 10:29:21,719 views 35 old
+INFO 2025-09-27 10:29:21,724 views 36 old
+INFO 2025-09-27 10:29:21,730 views 37 old
+INFO 2025-09-27 10:29:21,734 views 38 old
+INFO 2025-09-27 10:29:21,739 views 39 old
+INFO 2025-09-27 10:29:21,743 views 40 old
+INFO 2025-09-27 10:29:21,748 views 41 old
+INFO 2025-09-27 10:29:21,753 views 42 old
+INFO 2025-09-27 10:29:21,757 views 43 old
+INFO 2025-09-27 10:29:21,763 views 44 old
+INFO 2025-09-27 10:29:21,770 views 2 new
+INFO 2025-09-27 10:29:21,774 views 3 new
+INFO 2025-09-27 10:29:21,779 views 4 new
+INFO 2025-09-27 10:29:21,784 views 5 new
+INFO 2025-09-27 10:29:21,792 views 6 new
+INFO 2025-09-27 10:29:21,798 views 7 new
+INFO 2025-09-27 10:29:21,803 views 8 new
+INFO 2025-09-27 10:29:21,808 views 9 new
+INFO 2025-09-27 10:29:21,813 views 10 new
+INFO 2025-09-27 10:29:21,818 views 11 new
+INFO 2025-09-27 10:29:21,823 views 12 new
+INFO 2025-09-27 10:29:21,828 views 13 new
+INFO 2025-09-27 10:29:21,832 views 14 new
+INFO 2025-09-27 10:29:21,837 views 15 new
+INFO 2025-09-27 10:29:21,842 views 16 new
+INFO 2025-09-27 10:29:21,847 views 17 new
+INFO 2025-09-27 10:29:21,851 views 18 new
+INFO 2025-09-27 10:29:21,856 views 19 new
+INFO 2025-09-27 10:29:21,861 views 20 new
+INFO 2025-09-27 10:29:21,866 views 21 new
+INFO 2025-09-27 10:29:21,871 views 22 new
+INFO 2025-09-27 10:29:21,876 views 23 new
+INFO 2025-09-27 10:29:21,882 views 24 new
+INFO 2025-09-27 10:29:21,887 views 25 new
+INFO 2025-09-27 10:29:21,893 views 26 new
+INFO 2025-09-27 10:29:21,898 views 27 new
+INFO 2025-09-27 10:29:21,904 views 28 new
+INFO 2025-09-27 10:29:21,910 views 29 new
+INFO 2025-09-27 10:29:21,915 views 30 new
+INFO 2025-09-27 10:29:21,920 views 31 new
+INFO 2025-09-27 10:29:21,926 views 32 new
+INFO 2025-09-27 10:29:21,931 views 33 new
+INFO 2025-09-27 10:29:21,936 views 34 new
+INFO 2025-09-27 10:29:21,941 views 35 new
+INFO 2025-09-27 10:29:21,947 views 36 new
+INFO 2025-09-27 10:29:21,951 views 37 new
+INFO 2025-09-27 10:29:21,957 views 38 new
+INFO 2025-09-27 10:29:21,962 views 39 new
+INFO 2025-09-27 10:29:21,969 views 40 new
+INFO 2025-09-27 10:29:21,975 views 41 new
+INFO 2025-09-27 10:29:21,980 views 42 new
+INFO 2025-09-27 10:29:21,985 views 43 new
+INFO 2025-09-27 10:29:21,990 views 44 new
+INFO 2025-09-27 10:29:21,995 views 45 new
+INFO 2025-09-27 10:29:22,000 views 46 new
+INFO 2025-09-27 10:29:22,004 views 47 new
+INFO 2025-09-27 10:29:22,009 views 48 new
+INFO 2025-09-27 10:29:22,014 views 49 new
+INFO 2025-09-27 10:29:22,019 views 50 new
+INFO 2025-09-27 10:29:22,024 views 51 new
+INFO 2025-09-27 10:29:22,029 views 52 new
+INFO 2025-09-27 10:29:22,035 views 53 new
+INFO 2025-09-27 10:29:22,040 views 54 new
+INFO 2025-09-27 10:29:22,045 views 55 new
+INFO 2025-09-27 10:29:22,050 views 56 new
+INFO 2025-09-27 10:29:22,051 basehttp "POST /update_surgery_seq/ HTTP/1.1" 200 17
+INFO 2025-09-27 10:29:22,169 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 39765
+INFO 2025-09-27 10:29:33,331 basehttp "GET /add_surgery/2?date=2025-10-03 HTTP/1.1" 200 14965
+INFO 2025-09-27 10:34:14,761 views 28/09/2025
+INFO 2025-09-27 10:34:14,805 basehttp "GET / HTTP/1.1" 200 37360
+INFO 2025-09-27 10:34:16,138 basehttp "GET /add_surgery/2?date=2025-09-28 HTTP/1.1" 200 14933
+INFO 2025-09-27 10:35:54,213 basehttp "GET /?date=2025-09-28 HTTP/1.1" 200 37360
+INFO 2025-09-27 10:39:41,455 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:39:42,502 schedulers Scheduler started
+INFO 2025-09-27 10:39:42,533 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:39:45,429 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:39:46,339 schedulers Scheduler started
+INFO 2025-09-27 10:39:46,362 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:39:48,141 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:39:48,851 schedulers Scheduler started
+INFO 2025-09-27 10:39:48,875 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:39:55,821 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 10:39:56,598 schedulers Scheduler started
+INFO 2025-09-27 10:39:56,639 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:40:03,494 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 39765
+INFO 2025-09-27 10:40:05,542 basehttp "GET /add_surgery/2?date=2025-10-03 HTTP/1.1" 200 14933
+INFO 2025-09-27 10:40:12,284 basehttp "GET /search_surgery_name/?query=f HTTP/1.1" 200 2
+INFO 2025-09-27 10:40:14,065 basehttp "GET /search_surgery_name/?query=%D0%B0 HTTP/1.1" 200 944
+INFO 2025-09-27 10:40:18,695 basehttp "GET /search_surgery_type/?query=%D0%B0 HTTP/1.1" 200 317
+INFO 2025-09-27 10:40:25,628 basehttp "POST /add_surgery/2?date=2025-10-03 HTTP/1.1" 302 0
+INFO 2025-09-27 10:40:25,706 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 42269
+INFO 2025-09-27 10:41:09,013 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-27 10:41:09,291 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 29503
+INFO 2025-09-27 10:41:09,652 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-27 10:41:09,797 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 29503
+INFO 2025-09-27 10:42:19,435 views 28/09/2025
+INFO 2025-09-27 10:42:19,481 basehttp "GET / HTTP/1.1" 200 37360
+INFO 2025-09-27 10:42:24,578 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 42269
+INFO 2025-09-27 10:42:25,863 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-27 10:42:25,920 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 29503
+WARNING 2025-09-27 10:42:26,104 log Not Found: /favicon.ico
+WARNING 2025-09-27 10:42:26,105 basehttp "GET /favicon.ico HTTP/1.1" 404 5764
+INFO 2025-09-27 10:43:49,752 schedulers Scheduler started
+INFO 2025-09-27 10:43:50,375 schedulers Scheduler started
+INFO 2025-09-27 10:43:50,400 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 10:43:54,577 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 42269
+INFO 2025-09-27 10:43:55,917 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-27 10:43:56,030 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 29393
+INFO 2025-09-27 11:23:29,309 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\models.py changed, reloading.
+INFO 2025-09-27 11:23:30,229 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:23:44,802 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\models.py changed, reloading.
+INFO 2025-09-27 11:23:45,474 schedulers Scheduler started
+INFO 2025-09-27 11:23:45,502 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:25:05,000 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\models.py changed, reloading.
+INFO 2025-09-27 11:25:05,942 schedulers Scheduler started
+INFO 2025-09-27 11:25:05,968 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:26:15,007 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:26:15,799 schedulers Scheduler started
+INFO 2025-09-27 11:26:15,828 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:26:17,596 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:26:18,277 schedulers Scheduler started
+INFO 2025-09-27 11:26:18,303 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:26:21,132 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:26:21,821 schedulers Scheduler started
+INFO 2025-09-27 11:26:21,845 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:26:25,646 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:26:26,472 schedulers Scheduler started
+INFO 2025-09-27 11:26:26,501 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:26:28,350 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:26:29,006 schedulers Scheduler started
+INFO 2025-09-27 11:26:29,032 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:36:30,808 schedulers Scheduler started
+INFO 2025-09-27 11:36:35,688 schedulers Scheduler started
+INFO 2025-09-27 11:36:42,008 schedulers Scheduler started
+INFO 2025-09-27 11:36:42,515 schedulers Scheduler started
+INFO 2025-09-27 11:36:42,542 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:36:48,060 basehttp "GET /add_surgery/2?date=2025-10-03 HTTP/1.1" 200 16021
+INFO 2025-09-27 11:40:57,731 schedulers Scheduler started
+INFO 2025-09-27 11:40:58,299 schedulers Scheduler started
+INFO 2025-09-27 11:40:58,323 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:40:59,481 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 43398
+INFO 2025-09-27 11:41:03,190 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 43398
+INFO 2025-09-27 11:41:03,844 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 43398
+INFO 2025-09-27 11:41:04,156 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 43398
+INFO 2025-09-27 11:41:04,865 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 43398
+INFO 2025-09-27 11:41:05,523 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 43398
+INFO 2025-09-27 11:42:01,319 schedulers Scheduler started
+INFO 2025-09-27 11:42:01,821 schedulers Scheduler started
+INFO 2025-09-27 11:42:01,843 autoreload Watching for file changes with StatReloader
+ERROR 2025-09-27 11:42:07,610 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py", line 79, in home
+    return render(request, 'index.html', {'branches': branches, 'day': day})
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HERO\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 563, in invalid_block_tag
+    raise self.error(
+    ...<8 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 78: 'endif', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2025-09-27 11:42:07,619 basehttp "GET /?date=2025-10-03 HTTP/1.1" 500 279132
+INFO 2025-09-27 11:42:25,862 schedulers Scheduler started
+INFO 2025-09-27 11:42:26,425 schedulers Scheduler started
+INFO 2025-09-27 11:42:26,450 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:42:34,374 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 43390
+INFO 2025-09-27 11:42:38,958 basehttp "GET /surgery/505/edit/ HTTP/1.1" 200 15591
+INFO 2025-09-27 11:47:10,870 basehttp "GET /surgery/505/edit/ HTTP/1.1" 200 15591
+INFO 2025-09-27 11:47:52,133 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:47:52,926 schedulers Scheduler started
+INFO 2025-09-27 11:47:52,955 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:47:54,689 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:47:55,280 schedulers Scheduler started
+INFO 2025-09-27 11:47:55,301 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:47:58,135 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:47:58,844 schedulers Scheduler started
+INFO 2025-09-27 11:47:58,869 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:48:00,667 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:48:01,276 schedulers Scheduler started
+INFO 2025-09-27 11:48:01,303 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:48:03,611 basehttp "GET /surgery/505/edit/ HTTP/1.1" 200 15665
+INFO 2025-09-27 11:48:21,870 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:48:22,621 schedulers Scheduler started
+INFO 2025-09-27 11:48:22,643 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:48:24,440 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:48:25,162 schedulers Scheduler started
+INFO 2025-09-27 11:48:25,184 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:48:34,270 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:48:34,861 schedulers Scheduler started
+INFO 2025-09-27 11:48:34,882 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:48:38,693 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:48:39,264 schedulers Scheduler started
+INFO 2025-09-27 11:48:39,284 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:48:57,533 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:48:58,204 schedulers Scheduler started
+INFO 2025-09-27 11:48:58,227 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:49:01,435 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:49:02,001 schedulers Scheduler started
+INFO 2025-09-27 11:49:02,021 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:49:21,338 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:49:21,943 schedulers Scheduler started
+INFO 2025-09-27 11:49:21,963 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:49:41,287 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:49:41,912 schedulers Scheduler started
+INFO 2025-09-27 11:49:41,935 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:49:44,723 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:49:45,305 schedulers Scheduler started
+INFO 2025-09-27 11:49:45,334 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:49:46,470 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:49:47,005 schedulers Scheduler started
+INFO 2025-09-27 11:49:47,024 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:50:26,936 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:50:27,561 schedulers Scheduler started
+INFO 2025-09-27 11:50:27,583 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:52:29,287 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:52:29,889 schedulers Scheduler started
+INFO 2025-09-27 11:52:29,909 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:52:45,076 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:52:45,659 schedulers Scheduler started
+INFO 2025-09-27 11:52:45,679 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:52:52,605 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:52:53,233 schedulers Scheduler started
+INFO 2025-09-27 11:52:53,255 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:53:03,638 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:53:04,214 schedulers Scheduler started
+INFO 2025-09-27 11:53:04,240 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:53:07,048 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:53:07,660 schedulers Scheduler started
+INFO 2025-09-27 11:53:07,680 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:53:10,620 basehttp "GET /surgery/505/edit/ HTTP/1.1" 200 16114
+INFO 2025-09-27 11:53:16,075 basehttp "GET /surgery/505/edit/ HTTP/1.1" 200 16114
+INFO 2025-09-27 11:53:29,012 basehttp "POST /surgery/505/edit/ HTTP/1.1" 302 0
+INFO 2025-09-27 11:53:29,019 views 28/09/2025
+INFO 2025-09-27 11:53:29,063 basehttp "GET / HTTP/1.1" 200 38397
+INFO 2025-09-27 11:54:27,210 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 11:54:27,832 schedulers Scheduler started
+INFO 2025-09-27 11:54:27,853 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:54:56,897 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 43399
+INFO 2025-09-27 11:55:03,727 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-27 11:55:03,895 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 29313
+INFO 2025-09-27 11:55:13,754 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 11:55:14,371 schedulers Scheduler started
+INFO 2025-09-27 11:55:14,391 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:55:23,450 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:55:24,020 schedulers Scheduler started
+INFO 2025-09-27 11:55:24,039 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:55:27,838 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:55:28,432 schedulers Scheduler started
+INFO 2025-09-27 11:55:28,454 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:55:31,183 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:55:31,853 schedulers Scheduler started
+INFO 2025-09-27 11:55:31,878 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:55:33,668 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:55:34,243 schedulers Scheduler started
+INFO 2025-09-27 11:55:34,262 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:55:42,147 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:55:42,715 schedulers Scheduler started
+INFO 2025-09-27 11:55:42,735 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:55:45,532 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:55:46,127 schedulers Scheduler started
+INFO 2025-09-27 11:55:46,147 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:55:50,005 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:55:50,635 schedulers Scheduler started
+INFO 2025-09-27 11:55:50,659 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:55:52,438 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:55:53,086 schedulers Scheduler started
+INFO 2025-09-27 11:55:53,111 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:55:56,942 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:55:57,547 schedulers Scheduler started
+INFO 2025-09-27 11:55:57,567 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:56:03,402 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:56:03,988 schedulers Scheduler started
+INFO 2025-09-27 11:56:04,013 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:56:05,770 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:56:06,333 schedulers Scheduler started
+INFO 2025-09-27 11:56:06,352 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:56:08,090 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:56:08,679 schedulers Scheduler started
+INFO 2025-09-27 11:56:08,698 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:56:11,451 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:56:12,083 schedulers Scheduler started
+INFO 2025-09-27 11:56:12,108 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:56:13,851 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:56:14,466 schedulers Scheduler started
+INFO 2025-09-27 11:56:14,486 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:56:16,201 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:56:16,917 schedulers Scheduler started
+INFO 2025-09-27 11:56:16,939 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:56:18,673 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:56:19,308 schedulers Scheduler started
+INFO 2025-09-27 11:56:19,333 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:56:23,132 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:56:23,718 schedulers Scheduler started
+INFO 2025-09-27 11:56:23,738 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:56:25,497 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:56:26,117 schedulers Scheduler started
+INFO 2025-09-27 11:56:26,137 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:56:28,896 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:56:29,476 schedulers Scheduler started
+INFO 2025-09-27 11:56:29,496 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:56:43,589 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:56:44,163 schedulers Scheduler started
+INFO 2025-09-27 11:56:44,183 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:56:49,024 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 11:56:49,741 schedulers Scheduler started
+INFO 2025-09-27 11:56:49,762 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:58:05,479 schedulers Scheduler started
+INFO 2025-09-27 11:58:05,933 schedulers Scheduler started
+INFO 2025-09-27 11:58:05,958 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:58:10,527 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 43399
+INFO 2025-09-27 11:58:11,655 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-27 11:58:11,753 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 29518
+INFO 2025-09-27 11:58:17,607 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 43399
+INFO 2025-09-27 11:58:46,337 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 11:58:46,893 schedulers Scheduler started
+INFO 2025-09-27 11:58:46,913 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:58:53,841 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 11:58:54,606 schedulers Scheduler started
+INFO 2025-09-27 11:58:54,632 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:58:57,563 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 11:58:58,198 schedulers Scheduler started
+INFO 2025-09-27 11:58:58,219 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:59:02,018 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 11:59:02,791 schedulers Scheduler started
+INFO 2025-09-27 11:59:02,825 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:59:06,078 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 11:59:06,604 schedulers Scheduler started
+INFO 2025-09-27 11:59:06,624 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:59:36,251 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 11:59:36,821 schedulers Scheduler started
+INFO 2025-09-27 11:59:36,842 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:59:41,057 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 11:59:41,557 schedulers Scheduler started
+INFO 2025-09-27 11:59:41,580 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:59:45,374 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 11:59:45,949 schedulers Scheduler started
+INFO 2025-09-27 11:59:45,970 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:59:48,710 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\views.py changed, reloading.
+INFO 2025-09-27 11:59:49,312 schedulers Scheduler started
+INFO 2025-09-27 11:59:49,336 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 11:59:54,578 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-27 11:59:54,688 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 30351
+INFO 2025-09-27 12:05:09,183 schedulers Scheduler started
+INFO 2025-09-27 12:05:09,704 schedulers Scheduler started
+INFO 2025-09-27 12:05:09,728 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 12:05:12,888 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-27 12:05:12,980 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 30290
+INFO 2025-09-27 12:06:09,790 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 12:06:10,356 schedulers Scheduler started
+INFO 2025-09-27 12:06:10,383 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 12:06:30,704 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 12:06:31,290 schedulers Scheduler started
+INFO 2025-09-27 12:06:31,311 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 12:07:09,167 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 12:07:09,768 schedulers Scheduler started
+INFO 2025-09-27 12:07:09,788 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 12:07:11,506 autoreload D:\Any\FL\C\C_03_03_25\ru_med_project\backend\forms.py changed, reloading.
+INFO 2025-09-27 12:07:12,119 schedulers Scheduler started
+INFO 2025-09-27 12:07:12,141 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 12:07:17,212 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 43399
+INFO 2025-09-27 12:07:18,943 basehttp "GET /surgery/505/edit/ HTTP/1.1" 200 16138
+INFO 2025-09-27 12:07:28,439 basehttp "POST /surgery/505/edit/ HTTP/1.1" 302 0
+INFO 2025-09-27 12:07:28,444 views 28/09/2025
+INFO 2025-09-27 12:07:28,485 basehttp "GET / HTTP/1.1" 200 38397
+INFO 2025-09-27 12:07:34,211 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 43513
+INFO 2025-09-27 12:07:39,512 basehttp "GET /surgery/505/edit/ HTTP/1.1" 200 16136
+INFO 2025-09-27 12:07:44,301 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-27 12:07:44,461 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 30123
+INFO 2025-09-27 12:07:53,114 basehttp "GET /add_surgery/2?date=2025-10-03 HTTP/1.1" 200 16021
+INFO 2025-09-27 12:08:06,957 basehttp "GET /search_surgery_name/?query=%D0%B0 HTTP/1.1" 200 944
+INFO 2025-09-27 12:08:08,648 basehttp "GET /search_surgery_type/?query=%D0%BF HTTP/1.1" 200 458
+INFO 2025-09-27 12:08:12,537 basehttp "POST /add_surgery/2?date=2025-10-03 HTTP/1.1" 302 0
+INFO 2025-09-27 12:08:12,590 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 46074
+INFO 2025-09-27 12:08:22,723 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-27 12:08:22,810 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 30527

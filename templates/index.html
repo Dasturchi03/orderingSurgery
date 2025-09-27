@@ -39,6 +39,7 @@
                             <th>Отделение</th>
                             <th>Ф.И.О пациента</th>
                             <th>Возраст</th>
+                            <th>Группа крови</th>
                             <th>Диагноз</th>
                             <th>Название операции</th>
                             <th>Примечания</th>
@@ -74,11 +75,12 @@
                                 <td>{{ surgery.own_branch.name }}</td>
                                 <td>{{ surgery.full_name }}</td>
                                 <td>{% if surgery.age %}{{ surgery.age }}{% endif %}</td>
+                                <td>{% if surgery.blood_group %}{{ surgery.blood_group }}{% endif %}</td>
                                 <td>{{ surgery.diagnost }}</td>
                                 <td>{{ surgery.surgery_name.surgery_name }}</td>
                                 <td>{{ surgery.surgery_type.type_name }}</td>
                                 <td>
-                                    {% for surgeon in surgery.surgeons.all %}
+                                    {% for surgeon in surgery.ordered_surgeons %}
                                         <span>{{ surgeon.full_name }}</span>{% if not forloop.last %}, {% endif %}
                                     {% endfor %}
                                 </td>
@@ -149,8 +151,7 @@
                         updatedRows.push({ id: id, seq_number: newSeqNumber });
                         $(this).attr('data-seq-number', newSeqNumber);
                         {% if user.is_superuser %}
-                            $(this).find("input").value = `${branchNumber}.${newSeqNumber}`;
-                            console.log(1111, $(this).find(".seq-input").value)
+                            $(this).find("td:first input").value = `${branchNumber}.${newSeqNumber}`;
                         {% else %}
                             $(this).find("td:first").text(`${branchNumber}.${newSeqNumber}`);
                         {% endif %}
@@ -208,7 +209,7 @@
                     if (data.success) {
                         location.reload();
                     } else {
-                        alert("Xatolik yuz berdi: " + data.error);
+                        alert("Error: " + data.error);
                     }
                 })
                 .catch(error => {

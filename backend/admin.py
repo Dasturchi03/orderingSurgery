@@ -46,12 +46,10 @@ class BranchAdmin(admin.ModelAdmin):
     list_display = [
         'branch_number',
         'name',
+        'page_number'
     ]
     inlines = [UserInline]
 
-
-# admin.site.register(SurgeryName)
-# admin.site.register(SurgeryType)
 
 @admin.register(Surgery)
 class SurgeryAdmin(admin.ModelAdmin):
@@ -65,4 +63,3 @@ class SurgeryAdmin(admin.ModelAdmin):
 @admin.register(SurgeryDay)
 class SurgeryDayAdmin(admin.ModelAdmin):
     fields = ['date']
-

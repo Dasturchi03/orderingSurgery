@@ -26,6 +26,22 @@
                 </tr>
                 <tr>
                     <td>
+                        <label for="blood_group" class="form-label">Группа крови</label>
+                    </td>
+                    <td>
+                        {{ form.blood_group }}
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="blood_comment" class="form-label">Комментарий по крови</label>
+                    </td>
+                    <td>
+                        {{ form.blood_comment }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <label for="diagnost" class="form-label">Диагноз<span class="text-red"> * </span></label>
                     </td>
                     <td>
@@ -132,6 +148,44 @@
             $('#suggestions_surgery_type').hide();
         });
     });
-</script>    
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const checkboxes = document.querySelectorAll('input[type="checkbox"][name="surgeons"]');
+        const form = document.querySelector('form');
+        let sequence = 1;
+    
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                console.log(sequence)
+                if (this.checked) {
+                    this.setAttribute('data-seq', sequence++);
+                } else {
+                    this.removeAttribute('data-seq');
+                }
+                updateHiddenField();
+            });
+        });
+    
+        function updateHiddenField() {
+            const checkedSurgeons = [...checkboxes]
+                .filter(cb => cb.checked)
+                .sort((a, b) => (a.getAttribute('data-seq') || 0) - (b.getAttribute('data-seq') || 0))
+                .map(cb => cb.value);
+    
+            let hiddenInput = document.getElementById('sorted_surgeons');
+            if (!hiddenInput) {
+                hiddenInput = document.createElement('input');
+                hiddenInput.type = 'hidden';
+                hiddenInput.name = 'sorted_surgeons';
+                hiddenInput.id = 'sorted_surgeons';
+                form.appendChild(hiddenInput);
+            }
+            hiddenInput.value = checkedSurgeons.join(',');
+        }
+    });    
+</script>
+
 
 {% endblock edit_surgery %}
