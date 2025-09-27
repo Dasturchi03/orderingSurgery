@@ -1634,3 +1634,46 @@ INFO 2025-09-27 12:08:12,537 basehttp "POST /add_surgery/2?date=2025-10-03 HTTP/
 INFO 2025-09-27 12:08:12,590 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 46074
 INFO 2025-09-27 12:08:22,723 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
 INFO 2025-09-27 12:08:22,810 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 30527
+INFO 2025-09-27 12:29:11,932 schedulers Scheduler started
+INFO 2025-09-27 12:29:12,054 schedulers Scheduler started
+INFO 2025-09-27 12:29:12,058 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 12:29:15,231 views 28/09/2025
+INFO 2025-09-27 12:29:15,257 basehttp "GET / HTTP/1.1" 200 30819
+INFO 2025-09-27 12:29:21,142 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 34791
+INFO 2025-09-27 12:29:29,260 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 9
+INFO 2025-09-27 12:29:31,683 basehttp "GET /login/ HTTP/1.1" 200 3154
+INFO 2025-09-27 12:29:35,142 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2025-09-27 12:29:35,855 views 28/09/2025
+INFO 2025-09-27 12:29:35,871 basehttp "GET / HTTP/1.1" 200 38397
+INFO 2025-09-27 12:29:41,760 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 46074
+INFO 2025-09-27 12:29:57,445 schedulers Scheduler started
+INFO 2025-09-27 12:29:57,564 schedulers Scheduler started
+INFO 2025-09-27 12:29:57,568 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 12:30:01,659 views 28/09/2025
+INFO 2025-09-27 12:30:01,685 basehttp "GET / HTTP/1.1" 200 30819
+INFO 2025-09-27 12:30:03,751 views 28/09/2025
+INFO 2025-09-27 12:30:03,766 basehttp "GET / HTTP/1.1" 200 30819
+INFO 2025-09-27 12:30:07,233 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 34791
+INFO 2025-09-27 12:30:11,021 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 9
+INFO 2025-09-27 12:30:13,954 basehttp "GET /login/ HTTP/1.1" 200 3154
+INFO 2025-09-27 12:30:18,458 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2025-09-27 12:30:18,686 views 28/09/2025
+INFO 2025-09-27 12:30:18,704 basehttp "GET / HTTP/1.1" 200 38397
+ERROR 2025-09-27 12:30:22,347 log Internal Server Error: /download-pdf/
+Traceback (most recent call last):
+  File "/home/ru_med_project/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ru_med_project/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ru_med_project/backend/views.py", line 311, in generate_pdf
+    "last_page": pages[-1]
+IndexError: list index out of range
+ERROR 2025-09-27 12:30:22,347 basehttp "GET /download-pdf/?date=2025-09-28 HTTP/1.1" 500 61434
+INFO 2025-09-27 12:30:32,299 basehttp "GET /?date=2025-10-03 HTTP/1.1" 200 46074
+INFO 2025-09-27 12:30:33,483 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-27 12:30:33,613 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 29389
+INFO 2025-09-27 12:32:48,648 schedulers Scheduler started
+INFO 2025-09-27 12:32:48,773 schedulers Scheduler started
+INFO 2025-09-27 12:32:48,777 autoreload Watching for file changes with StatReloader
+INFO 2025-09-27 12:33:16,283 basehttp "GET /static/images/logo.png HTTP/1.1" 200 19290
+INFO 2025-09-27 12:33:16,392 basehttp "GET /download-pdf/?date=2025-10-03 HTTP/1.1" 200 29440
