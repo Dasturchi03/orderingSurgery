@@ -26,6 +26,22 @@
                 </tr>
                 <tr>
                     <td>
+                        <label for="blood_group" class="form-label">Группа крови</label>
+                    </td>
+                    <td>
+                        {{ form.blood_group }}
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="blood_comment" class="form-label">Комментарий по крови</label>
+                    </td>
+                    <td>
+                        {{ form.blood_comment }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <label for="diagnost" class="form-label">Диагноз<span class="text-red"> * </span></label>
                     </td>
                     <td>
@@ -119,7 +135,7 @@
         $(document).on('click', '.suggestion-item1', function() {
             var selectedName = $(this).text();
             var selectedId = $(this).data('id');
-            
+
             $('#surgery_name').val(selectedName);
             $('#suggestions_surgery_name').hide();
         });
@@ -127,7 +143,7 @@
         $(document).on('click', '.suggestion-item2', function() {
             var selectedName = $(this).text();
             var selectedId = $(this).data('id');
-        
+
             $('#surgery_type').val(selectedName);
             $('#suggestions_surgery_type').hide();
         });
@@ -139,7 +155,11 @@
         const checkboxes = document.querySelectorAll('input[type="checkbox"][name="surgeons"]');
         const form = document.querySelector('#surgery-form');
         let sequence = 1;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 8c912b4f611a87ee8216721274412f0f4c6fa324
         checkboxes.forEach(checkbox => {
             checkbox.addEventListener('change', function() {
                 if (this.checked) {
@@ -150,7 +170,6 @@
                 updateHiddenField();
             });
         });
-    
         function updateHiddenField() {
             const checkedSurgeons = [...checkboxes]
                 .filter(cb => cb.checked)
@@ -169,7 +188,7 @@
             console.log(checkedSurgeons.join(','))
             console.log(hiddenInput)
         }
-    });    
+    });
 </script>
 
 

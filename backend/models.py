@@ -133,6 +133,13 @@ class Surgery(models.Model):
     surgeons = models.ManyToManyField(to=Surgeon, related_name='surgeries', through='SurgerySurgeon')
     date_of_surgery = models.ForeignKey(to='SurgeryDay', on_delete=models.CASCADE, related_name='surgeries', verbose_name='Дата операции', null=True)
 
+    blood_group = models.CharField(
+        "Группа крови",
+        max_length=128,
+        null=True,
+        blank=True,
+        help_text='Например: "A(II) Rh+ + комментарий"'
+    )
     class Meta:
         verbose_name = 'Операция'
         verbose_name_plural = 'Операции'

@@ -39,6 +39,7 @@
                             <th>Отделение</th>
                             <th>Ф.И.О пациента</th>
                             <th>Возраст</th>
+                            <th>Группа крови</th>
                             <th>Диагноз</th>
                             <th>Название операции</th>
                             <th>Примечания</th>
@@ -74,6 +75,7 @@
                                 <td>{{ surgery.own_branch.name }}</td>
                                 <td>{{ surgery.full_name }}</td>
                                 <td>{% if surgery.age %}{{ surgery.age }}{% endif %}</td>
+                                <td>{% if surgery.blood_group %}{{ surgery.blood_group }}{% endif %}</td>
                                 <td>{{ surgery.diagnost }}</td>
                                 <td>{{ surgery.surgery_name.surgery_name }}</td>
                                 <td>{{ surgery.surgery_type.type_name }}</td>

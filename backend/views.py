@@ -102,14 +102,14 @@ def update_surgery_seq(request: HttpRequest):
             for index, item in enumerate(surgeries, start=1):
                 item.seq_number = index
                 item.save()
-                logger.info(item.seq_number, 'old')
+                logger.info(f'{item.seq_number} old')
 
             surgeries_in_new_branch = Surgery.objects.filter(branch_id=new_branch.pk).exclude(id=surgery.id).order_by('seq_number')
             for index, item in enumerate(surgeries_in_new_branch, start=1):
                 if index >= int(new_seq_number):
                     item.seq_number = index + 1
                     item.save()
-                    logger.info(item.seq_number, 'new')
+                    logger.info(f'{item.seq_number} new')
 
             return JsonResponse({'success': True})
         except Surgery.DoesNotExist:
@@ -137,7 +137,6 @@ def add_surgery(request: HttpRequest, branch_id):
             return HttpResponse("Invalid date format.", status=400)
     else:
         day = get_next_surgery_day()
-    
     branch = get_object_or_404(Branch, id=branch_id)
     surgery_names = SurgeryName.objects.all()
     surgery_types = SurgeryType.objects.all()
@@ -150,11 +149,12 @@ def add_surgery(request: HttpRequest, branch_id):
             surgery, sorted_surgeons = form.save(commit=False)
             surgery.branch = branch
             surgery.own_branch = branch
+            surgery.date_of_surgery = day
             surgery.seq_number = Surgery.objects.filter(branch__id=branch_id).filter(date_of_surgery=day).count() + 1
             surgery.save()
             for index, surgeon in enumerate(sorted_surgeons.split(',')):  
                 SurgerySurgeon.objects.create(surgery=surgery, surgeon_id=int(surgeon), sequence=index)
-            return HttpResponseRedirect('/')
+            return HttpResponseRedirect(f'/?date={date_str}')
         else:
             logger.error(form.errors)
             raise UnreadablePostError("Form is not valid!")
@@ -280,6 +280,7 @@ def generate_pdf(request: HttpRequest):
         surgeries = branch.surgeries.filter(date_of_surgery=day).order_by('seq_number')
         surgeries_data = []
         for surgery in surgeries:
+            assert isinstance(surgery, Surgery)
             surgeons = [surgeon.full_name for surgeon in surgery.surgeons.all()]
             surgeries_data.append({
                 "number": f"{branch.branch_number}.{surgery.seq_number}",
@@ -287,6 +288,7 @@ def generate_pdf(request: HttpRequest):
                 "department": surgery.own_branch.name,
                 "patient_name": surgery.full_name,
                 "age": str(surgery.age) if surgery.age else "-",
+                "blood_group": surgery.blood_group if surgery.blood_group else "-",
                 "diagnosis": surgery.diagnost,
                 "operation_name": surgery.surgery_name.surgery_name,
                 "surgeons": surgeons,

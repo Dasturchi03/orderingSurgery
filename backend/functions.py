@@ -10,10 +10,6 @@ def get_or_create_surgery_day(date: date, editable: bool = True):
     try:
         day = SurgeryDay.objects.get(date=date)
     except SurgeryDay.DoesNotExist:
-        if date.isoweekday() == 6:
-            editable = False
-        elif date.isoweekday() == 7:
-            editable = False
         day = SurgeryDay(date=date, editable=editable)
         day.save()
     except Exception as err:
