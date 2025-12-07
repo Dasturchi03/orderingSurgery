@@ -1,7 +1,8 @@
 from django import forms
 from .functions import get_next_surgery_day
-from .models import Surgery, SurgeryName, SurgeryType, Surgeon
+from .models import Surgery, SurgeryName, SurgeryType, Surgeon, SurgerySurgeon
 from datetime import date
+from django.db import models
 
 
 class SurgeryForm(forms.Form):
@@ -16,6 +17,8 @@ class SurgeryForm(forms.Form):
         required=True,
     )
 
+    sorted_surgeons = forms.CharField(widget=forms.HiddenInput(), required=False)
+
     def save(self, commit=True):
         full_name = self.cleaned_data.get('full_name')
         age = self.cleaned_data.get('age')
@@ -24,6 +27,7 @@ class SurgeryForm(forms.Form):
         surgery_type, _ = SurgeryType.objects.get_or_create(type_name=self.cleaned_data.get('surgery_type'))
         surgeons = self.cleaned_data.get('surgeons')
         date_of_surgery = get_next_surgery_day()
+        sorted_surgeons = self.cleaned_data.get('sorted_surgeons')
 
         surgery = Surgery(
             full_name=full_name,
@@ -36,10 +40,11 @@ class SurgeryForm(forms.Form):
 
         if commit:
             surgery.save()
-            surgery.surgeons.set(surgeons)
+            for index, surgeon in enumerate(sorted_surgeons.split(',')):  
+                SurgerySurgeon.objects.create(surgery=surgery, surgeon_id=int(surgeon), sequence=index)
             return surgery
         
-        return surgery, surgeons
+        return surgery, sorted_surgeons
 
 
 class SurgeryEditForm(forms.Form):
@@ -54,6 +59,8 @@ class SurgeryEditForm(forms.Form):
         required=True,
     )
 
+    sorted_surgeons = forms.CharField(widget=forms.HiddenInput(), required=False)
+
     def __init__(self, *args, instance: Surgery = None, **kwargs):
         super().__init__(*args, **kwargs)
         self.instance = instance
@@ -65,6 +72,7 @@ class SurgeryEditForm(forms.Form):
             self.fields['surgery_type'].initial = instance.surgery_type.type_name
             self.fields['surgeons'].initial = instance.surgeons.all()
 
+
     def save(self):
         if self.instance:
             self.instance.full_name = self.cleaned_data['full_name']
@@ -74,6 +82,10 @@ class SurgeryEditForm(forms.Form):
             surgery_type, _ = SurgeryType.objects.get_or_create(type_name=self.cleaned_data['surgery_type'])
             self.instance.surgery_name = surgery_name
             self.instance.surgery_type = surgery_type
+            sorted_surgeons = self.cleaned_data['sorted_surgeons']
             self.instance.save()
-            self.instance.surgeons.set(self.cleaned_data['surgeons'])
+            self.instance.surgeons.clear()
+            for index, surgeon in enumerate(sorted_surgeons.split(',')):  
+                SurgerySurgeon.objects.create(surgery=self.instance, surgeon_id=int(surgeon), sequence=index)
+
         return self.instance

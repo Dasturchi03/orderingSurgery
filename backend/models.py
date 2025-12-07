@@ -95,7 +95,7 @@ class SurgeryName(models.Model):
 
 class Surgeon(models.Model):
     full_name = models.CharField(unique=True, max_length=255, verbose_name='Ф.И.О Хирурга')
-    branch = models.ForeignKey(to="Branch", on_delete=models.CASCADE, related_name='surgeons', verbose_name="Отделение", null=True)
+    branch = models.ManyToManyField(to="Branch", related_name="surgeons",  verbose_name="Отделении")
 
     class Meta:
         verbose_name = 'Хирург'
@@ -110,6 +110,7 @@ class Branch(models.Model):
 
     branch_choices = [(i, str(i)) for i in range(1, 20)]
     branch_number = models.IntegerField(verbose_name='Номер отдела', choices=branch_choices)
+    page_number = models.IntegerField(verbose_name='Номер страницы', default=1)
 
     class Meta:
         verbose_name = 'Отдел'
@@ -128,7 +129,8 @@ class Surgery(models.Model):
     diagnost = models.CharField(verbose_name='Диагноз', max_length=255)
     surgery_name = models.ForeignKey(to=SurgeryName, on_delete=models.CASCADE, related_name='surgeries')
     surgery_type = models.ForeignKey(to=SurgeryType, on_delete=models.CASCADE, related_name='surgeries', null=True, blank=True)
-    surgeons = models.ManyToManyField(to=Surgeon, related_name='surgeries')
+    surgeons1 = models.ManyToManyField(to=Surgeon, related_name='surgerie')
+    surgeons = models.ManyToManyField(to=Surgeon, related_name='surgeries', through='SurgerySurgeon')
     date_of_surgery = models.ForeignKey(to='SurgeryDay', on_delete=models.CASCADE, related_name='surgeries', verbose_name='Дата операции', null=True)
 
     class Meta:
@@ -137,6 +139,15 @@ class Surgery(models.Model):
 
     def __str__(self):
         return self.surgery_name.surgery_name
+
+
+class SurgerySurgeon(models.Model):
+    surgery = models.ForeignKey(Surgery, on_delete=models.CASCADE)
+    surgeon = models.ForeignKey(Surgeon, on_delete=models.CASCADE)
+    sequence = models.IntegerField(default=0)
+
+    class Meta:
+        ordering = ['sequence']
 
 
 class SurgeryDay(models.Model):
