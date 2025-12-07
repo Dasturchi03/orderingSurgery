@@ -19,6 +19,8 @@ RUN pip install --no-cache-dir --upgrade pip \
 
 COPY . .
 
+RUN python manage.py collectstatic --noinput
+
 ENV DJANGO_SETTINGS_MODULE=core.settings \
     PYTHONUNBUFFERED=1
 

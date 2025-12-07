@@ -46,20 +46,14 @@ class BranchAdmin(admin.ModelAdmin):
     list_display = [
         'branch_number',
         'name',
-<<<<<<< HEAD
         'page_number'
-=======
->>>>>>> 81dc4b2 (Initial commit)
     ]
     inlines = [UserInline]
 
 
-<<<<<<< HEAD
-=======
 # admin.site.register(SurgeryName)
 # admin.site.register(SurgeryType)
 
->>>>>>> 81dc4b2 (Initial commit)
 @admin.register(Surgery)
 class SurgeryAdmin(admin.ModelAdmin):
     list_display = [
@@ -72,7 +66,3 @@ class SurgeryAdmin(admin.ModelAdmin):
 @admin.register(SurgeryDay)
 class SurgeryDayAdmin(admin.ModelAdmin):
     fields = ['date']
-<<<<<<< HEAD
-=======
-
->>>>>>> 81dc4b2 (Initial commit)

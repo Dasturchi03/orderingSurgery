@@ -1,5 +1,4 @@
 from django import forms
-<<<<<<< HEAD
 from django.core.exceptions import ValidationError
 from .models import Surgery, SurgeryName, SurgeryType, Surgeon, SurgerySurgeon
 from .functions import get_next_surgery_day
@@ -16,11 +15,6 @@ BLOOD_GROUP_CHOICES = [
     ("AB(IV) Rh-", "AB(IV) Rh-"),
     ("AB(IV) Rh+", "AB(IV) Rh+"),
 ]
-=======
-from .functions import get_next_surgery_day
-from .models import Surgery, SurgeryName, SurgeryType, Surgeon
-from datetime import date
->>>>>>> 81dc4b2 (Initial commit)
 
 
 class SurgeryForm(forms.Form):
@@ -29,24 +23,18 @@ class SurgeryForm(forms.Form):
     diagnost = forms.CharField(max_length=255, strip=True)
     surgery_name = forms.CharField(max_length=255, strip=True)
     surgery_type = forms.CharField(max_length=255, required=False, strip=True)
-<<<<<<< HEAD
 
     blood_group = forms.ChoiceField(choices=BLOOD_GROUP_CHOICES, required=False)
     blood_comment = forms.CharField(max_length=255, required=False, strip=True)
 
-=======
->>>>>>> 81dc4b2 (Initial commit)
     surgeons = forms.ModelMultipleChoiceField(
         queryset=Surgeon.objects.all(),
         widget=forms.CheckboxSelectMultiple,
         required=True,
     )
-<<<<<<< HEAD
     sorted_surgeons = forms.CharField(widget=forms.HiddenInput(), required=False)
 
     sorted_surgeons = forms.CharField(widget=forms.HiddenInput(), required=False)
-=======
->>>>>>> 81dc4b2 (Initial commit)
 
     def save(self, commit=True):
         full_name = self.cleaned_data.get('full_name')
@@ -54,15 +42,10 @@ class SurgeryForm(forms.Form):
         diagnost = self.cleaned_data.get('diagnost')
         surgery_name, _ = SurgeryName.objects.get_or_create(surgery_name=self.cleaned_data.get('surgery_name'))
         surgery_type, _ = SurgeryType.objects.get_or_create(type_name=self.cleaned_data.get('surgery_type'))
-<<<<<<< HEAD
 
         bg = (self.cleaned_data.get('blood_group') or "").strip()
         bc = (self.cleaned_data.get('blood_comment') or "").strip()
         bg_combined = f"{bg} | {bc}".strip(" +") if (bg or bc) else None
-=======
-        surgeons = self.cleaned_data.get('surgeons')
-        date_of_surgery = get_next_surgery_day()
->>>>>>> 81dc4b2 (Initial commit)
 
         surgery = Surgery(
             full_name=full_name,
@@ -70,7 +53,6 @@ class SurgeryForm(forms.Form):
             diagnost=diagnost,
             surgery_name=surgery_name,
             surgery_type=surgery_type,
-<<<<<<< HEAD
             date_of_surgery=get_next_surgery_day(),
             blood_group=bg_combined,
         )
@@ -85,58 +67,33 @@ class SurgeryForm(forms.Form):
             return surgery
 
         return surgery, sorted_surgeons
-=======
-            date_of_surgery=date_of_surgery,
-        )
-
-        if commit:
-            surgery.save()
-            surgery.surgeons.set(surgeons)
-            return surgery
-        
-        return surgery, surgeons
->>>>>>> 81dc4b2 (Initial commit)
 
 
 class SurgeryEditForm(forms.Form):
     full_name = forms.CharField(max_length=255, required=True)
     age = forms.IntegerField(required=False)
-<<<<<<< HEAD
     blood_group = forms.ChoiceField(choices=BLOOD_GROUP_CHOICES, required=False)
     blood_comment = forms.CharField(max_length=255, required=False, strip=True)
     diagnost = forms.CharField(max_length=255, required=True)
     surgery_name = forms.CharField(max_length=255, required=True)
     surgery_type = forms.CharField(max_length=255, required=False)
 
-=======
-    diagnost = forms.CharField(max_length=255, required=True)
-    surgery_name = forms.CharField(max_length=255, required=True)
-    surgery_type = forms.CharField(max_length=255, required=False)
->>>>>>> 81dc4b2 (Initial commit)
     surgeons = forms.ModelMultipleChoiceField(
         queryset=Surgeon.objects.all(),
         widget=forms.CheckboxSelectMultiple,
         required=True,
     )
-<<<<<<< HEAD
     sorted_surgeons = forms.CharField(widget=forms.HiddenInput(), required=False)
 
     sorted_surgeons = forms.CharField(widget=forms.HiddenInput(), required=False)
-=======
->>>>>>> 81dc4b2 (Initial commit)
 
     def __init__(self, *args, instance: Surgery = None, **kwargs):
         super().__init__(*args, **kwargs)
         self.instance = instance
-<<<<<<< HEAD
-
-=======
->>>>>>> 81dc4b2 (Initial commit)
         if instance and isinstance(instance, Surgery):
             self.fields['full_name'].initial = instance.full_name
             self.fields['age'].initial = instance.age
             self.fields['diagnost'].initial = instance.diagnost
-<<<<<<< HEAD
 
             self.fields['surgery_name'].initial = (
                 instance.surgery_name.surgery_name if instance.surgery_name else ""
@@ -242,21 +199,4 @@ class SurgeryEditForm(forms.Form):
             )
             seq += 1
 
-=======
-            self.fields['surgery_name'].initial = instance.surgery_name.surgery_name
-            self.fields['surgery_type'].initial = instance.surgery_type.type_name
-            self.fields['surgeons'].initial = instance.surgeons.all()
-
-    def save(self):
-        if self.instance:
-            self.instance.full_name = self.cleaned_data['full_name']
-            self.instance.age = self.cleaned_data['age']
-            self.instance.diagnost = self.cleaned_data['diagnost']
-            surgery_name, _ = SurgeryName.objects.get_or_create(surgery_name=self.cleaned_data['surgery_name'])
-            surgery_type, _ = SurgeryType.objects.get_or_create(type_name=self.cleaned_data['surgery_type'])
-            self.instance.surgery_name = surgery_name
-            self.instance.surgery_type = surgery_type
-            self.instance.save()
-            self.instance.surgeons.set(self.cleaned_data['surgeons'])
->>>>>>> 81dc4b2 (Initial commit)
         return self.instance

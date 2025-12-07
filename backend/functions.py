@@ -1,59 +1,30 @@
-<<<<<<< HEAD
 import logging
-=======
->>>>>>> 81dc4b2 (Initial commit)
 from datetime import date, timedelta
 from .models import SurgeryDay
 
 
-<<<<<<< HEAD
 logger = logging.getLogger('__main__')
 
 
-=======
->>>>>>> 81dc4b2 (Initial commit)
 def get_or_create_surgery_day(date: date, editable: bool = True):
     try:
         day = SurgeryDay.objects.get(date=date)
     except SurgeryDay.DoesNotExist:
-<<<<<<< HEAD
         day = SurgeryDay(date=date, editable=editable)
         day.save()
     except Exception as err:
         logger.error(err)
-=======
-        if date.isoweekday() == 6:
-            editable = False
-        elif date.isoweekday() == 7:
-            return False
-        day = SurgeryDay(date=date, editable=editable)
-        day.save()
-    except Exception as err:
-        print(err)
->>>>>>> 81dc4b2 (Initial commit)
         day, _ = SurgeryDay.objects.get_or_create(date=date)
     return day
 
 
 def get_next_surgery_day():
     tomorrow = date.today() + timedelta(days=1)
-<<<<<<< HEAD
     tw_day = get_or_create_surgery_day(date=tomorrow)
-=======
-    if tomorrow.isoweekday() == 7:
-        tomorrow += timedelta(days=1)
-    tw_day = get_or_create_surgery_day(date=tomorrow)
-
->>>>>>> 81dc4b2 (Initial commit)
     return tw_day
 
 
 def get_day(date: date):
-<<<<<<< HEAD
-=======
-    if date.isoweekday() == 7:
-        return False
->>>>>>> 81dc4b2 (Initial commit)
     day = get_or_create_surgery_day(date=date)
     return day
 
@@ -66,8 +37,4 @@ def get_next_30_days():
             continue
         day = get_or_create_surgery_day(date=that_day)
         days.append(day)
-<<<<<<< HEAD
-=======
-    
->>>>>>> 81dc4b2 (Initial commit)
     return days

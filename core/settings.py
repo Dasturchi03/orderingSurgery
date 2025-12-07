@@ -16,6 +16,8 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+LOG_DIR = BASE_DIR / "logs"
+LOG_DIR.mkdir(exist_ok=True)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
@@ -57,6 +59,7 @@ JAZZMIN_SETTINGS = {
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -143,10 +146,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+
 STATICFILES_DIRS = [
-    BASE_DIR / "staticfiles",
+    BASE_DIR / "static",
 ]
+
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / "media"
 
@@ -154,7 +161,6 @@ MEDIA_ROOT = BASE_DIR / "media"
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-<<<<<<< HEAD
 
 LOGGING = {
     'version': 1,
@@ -176,7 +182,7 @@ LOGGING = {
         },
         'file': {
             'class': 'logging.FileHandler',
-            'filename': 'logs/django.log',
+            'filename': f'{LOG_DIR}/django.log',
             'formatter': 'verbose',
         },
     },
@@ -193,5 +199,3 @@ LOGGING = {
         },
     }
 }
-=======
->>>>>>> 81dc4b2 (Initial commit)
