@@ -135,6 +135,7 @@
         $(document).on('click', '.suggestion-item1', function() {
             var selectedName = $(this).text();
             var selectedId = $(this).data('id');
+
             $('#surgery_name').val(selectedName);
             $('#suggestions_surgery_name').hide();
         });
@@ -142,23 +143,19 @@
         $(document).on('click', '.suggestion-item2', function() {
             var selectedName = $(this).text();
             var selectedId = $(this).data('id');
+
             $('#surgery_type').val(selectedName);
             $('#suggestions_surgery_type').hide();
         });
     });
 </script>    
 
-<<<<<<< HEAD
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const checkboxes = document.querySelectorAll('input[type="checkbox"][name="surgeons"]');
         const form = document.querySelector('#surgery-form');
         let sequence = 1;
-<<<<<<< HEAD
     
-=======
-
->>>>>>> 8c912b4f611a87ee8216721274412f0f4c6fa324
         checkboxes.forEach(checkbox => {
             checkbox.addEventListener('change', function() {
                 if (this.checked) {
@@ -169,6 +166,7 @@
                 updateHiddenField();
             });
         });
+    
         function updateHiddenField() {
             const checkedSurgeons = [...checkboxes]
                 .filter(cb => cb.checked)
@@ -191,6 +189,4 @@
 </script>
 
 
-=======
->>>>>>> 81dc4b2 (Initial commit)
 {% endblock add_surgery %}

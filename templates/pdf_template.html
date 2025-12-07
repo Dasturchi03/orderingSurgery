@@ -29,7 +29,6 @@
             text-align: left;
             padding: 0 5px;
             word-wrap: break-word;
-            word-break: break-word;
             font-size: 10px;
         }
 
@@ -86,36 +85,16 @@
         <img src="{% static 'images/logo.png' %}" style="width: 100px; height: auto;" alt="">
         <h1>План операций на {{ date }} ({{ weekday }})</h1>
     </div>
-<<<<<<< HEAD
 
     {% for page in pages %}
         <table>
-<<<<<<< HEAD
-=======
-            <colgroup>
-                <col style="width: 5%;">   <!-- № -->
-                <col style="width: 15%;">  <!-- Примечания -->
-                <col style="width: 15%;">  <!-- Отделение -->
-                <col style="width: 12%;">  <!-- Ф.И.О пациента -->
-                <col style="width: 5%;">   <!-- Возр -->
-                <col style="width: 8%;">   <!-- Гр. крови (TORAYTIRILDI) -->
-                <col style="width: 13%;">  <!-- Диагноз -->
-                <col style="width: 17%;">  <!-- Название операции (KENGAYTIRILDI) -->
-                <col style="width: 10%;">  <!-- Хирурги -->
-            </colgroup>
->>>>>>> 8c912b4f611a87ee8216721274412f0f4c6fa324
             <thead>
                 <tr>
                     <th>№</th>
                     <th>Примечания</th>
                     <th>Отделение</th>
                     <th>Ф.И.О пациента</th>
-<<<<<<< HEAD
                     <th>Возраст</th>
-=======
-                    <th>Возр</th>
-                    <th>Гр. крови</th>
->>>>>>> 8c912b4f611a87ee8216721274412f0f4c6fa324
                     <th>Диагноз</th>
                     <th>Название операции</th>
                     <th>Хирурги</th>
@@ -132,10 +111,6 @@
                                 <td>{{ surgery.department }}</td>
                                 <td>{{ surgery.patient_name }}</td>
                                 <td>{{ surgery.age }}</td>
-<<<<<<< HEAD
-=======
-                                <td>{{ surgery.blood_group }}</td>
->>>>>>> 8c912b4f611a87ee8216721274412f0f4c6fa324
                                 <td>{{ surgery.diagnosis }}</td>
                                 <td>{{ surgery.operation_name }}</td>
                                 <td>
@@ -157,87 +132,3 @@
 </body>
 </html>
 
-=======
-    
-    <table>
-        <thead>
-            <tr>
-                <th>№</th>
-                <th>Примечания</th>
-                <th>Отделение</th>
-                <th>Ф.И.О пациента</th>
-                <th>Возраст</th>
-                <th>Диагноз</th>
-                <th>Название операции</th>
-                <th>Хирурги</th>
-            </tr>
-        </thead>
-        {% for branch in branches %}
-            {% if branch.surgeries %}
-                {% if branch.branch_number != 13 and branch.branch_number != 16 and branch.branch_number != 17 %}
-                    <tbody>
-                        {% for surgery in branch.surgeries %}
-                        <tr>
-                            <td>{{ surgery.number }}</td>
-                            <td>{{ surgery.notes }}</td>
-                            <td>{{ surgery.department }}</td>
-                            <td>{{ surgery.patient_name }}</td>
-                            <td>{{ surgery.age }}</td>
-                            <td>{{ surgery.diagnosis }}</td>
-                            <td>{{ surgery.operation_name }}</td>
-                            <td>
-                                {% for surgeon in surgery.surgeons %}
-                                {{ surgeon }}<br>
-                                {% endfor %}
-                            </td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-    </table>
-
-    <div class="page-break"></div>
-
-    <table>
-        <thead>
-            <tr>
-                <th>№</th>
-                <th>Примечания</th>
-                <th>Отделение</th>
-                <th>Ф.И.О пациента</th>
-                <th>Возраст</th>
-                <th>Диагноз</th>
-                <th>Название операции</th>
-                <th>Хирурги</th>
-            </tr>
-        </thead>
-        {% for branch in branches %}
-            {% if branch.surgeries %}
-                {% if branch.branch_number == 13 or branch.branch_number == 16 or branch.branch_number == 17 %}
-                    <tbody>
-                        {% for surgery in branch.surgeries %}
-                        <tr>
-                            <td>{{ surgery.number }}</td>
-                            <td>{{ surgery.notes }}</td>
-                            <td>{{ surgery.department }}</td>
-                            <td>{{ surgery.patient_name }}</td>
-                            <td>{{ surgery.age }}</td>
-                            <td>{{ surgery.diagnosis }}</td>
-                            <td>{{ surgery.operation_name }}</td>
-                            <td>
-                                {% for surgeon in surgery.surgeons %}
-                                {{ surgeon }}<br>
-                                {% endfor %}
-                            </td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-    </table>
-</body>
-</html>
->>>>>>> 81dc4b2 (Initial commit)
