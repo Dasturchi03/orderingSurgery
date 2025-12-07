@@ -4,7 +4,7 @@
 
 <div class="container mt-4">
     <h1 class="mb-4">Добавить операцию для отдела {{ branch.name }}</h1>
-    <form method="post">
+    <form method="post" id="surgery-form">
         {% csrf_token %}
         <table class="table table-bordered">
             <tbody>
@@ -22,6 +22,22 @@
                     </td>
                     <td>
                         {{ form.age }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="blood_group" class="form-label">Группа крови</label>
+                    </td>
+                    <td>
+                        {{ form.blood_group }}
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="blood_comment" class="form-label">Комментарий по крови</label>
+                    </td>
+                    <td>
+                        {{ form.blood_comment }}
                     </td>
                 </tr>
                 <tr>
@@ -119,7 +135,7 @@
         $(document).on('click', '.suggestion-item1', function() {
             var selectedName = $(this).text();
             var selectedId = $(this).data('id');
-            
+
             $('#surgery_name').val(selectedName);
             $('#suggestions_surgery_name').hide();
         });
@@ -127,11 +143,48 @@
         $(document).on('click', '.suggestion-item2', function() {
             var selectedName = $(this).text();
             var selectedId = $(this).data('id');
-        
+
             $('#surgery_type').val(selectedName);
             $('#suggestions_surgery_type').hide();
         });
     });
 </script>    
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const checkboxes = document.querySelectorAll('input[type="checkbox"][name="surgeons"]');
+        const form = document.querySelector('#surgery-form');
+        let sequence = 1;
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                if (this.checked) {
+                    this.setAttribute('data-seq', sequence++);
+                } else {
+                    this.removeAttribute('data-seq');
+                }
+                updateHiddenField();
+            });
+        });
+        function updateHiddenField() {
+            const checkedSurgeons = [...checkboxes]
+                .filter(cb => cb.checked)
+                .sort((a, b) => (a.getAttribute('data-seq') || 0) - (b.getAttribute('data-seq') || 0))
+                .map(cb => cb.value);
+    
+            let hiddenInput = document.getElementById('sorted_surgeons');
+            if (!hiddenInput) {
+                hiddenInput = document.createElement('input');
+                hiddenInput.type = 'hidden';
+                hiddenInput.name = 'sorted_surgeons';
+                hiddenInput.id = 'sorted_surgeons';
+                form.appendChild(hiddenInput);
+            }
+            hiddenInput.value = checkedSurgeons.join(',');
+            console.log(checkedSurgeons.join(','))
+            console.log(hiddenInput)
+        }
+    });
+</script>
+
 
 {% endblock add_surgery %}
