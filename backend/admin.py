@@ -51,9 +51,6 @@ class BranchAdmin(admin.ModelAdmin):
     inlines = [UserInline]
 
 
-# admin.site.register(SurgeryName)
-# admin.site.register(SurgeryType)
-
 @admin.register(Surgery)
 class SurgeryAdmin(admin.ModelAdmin):
     list_display = [

@@ -1,3 +1,4 @@
+import logging
 from apscheduler.schedulers.background import BackgroundScheduler
 from datetime import date, timedelta
 from .models import SurgeryDay

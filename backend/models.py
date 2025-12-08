@@ -95,11 +95,7 @@ class SurgeryName(models.Model):
 
 class Surgeon(models.Model):
     full_name = models.CharField(unique=True, max_length=255, verbose_name='Ф.И.О Хирурга')
-<<<<<<< HEAD
     branch = models.ManyToManyField(to="Branch", related_name="surgeons",  verbose_name="Отделении")
-=======
-    branch = models.ForeignKey(to="Branch", on_delete=models.CASCADE, related_name='surgeons', verbose_name="Отделение", null=True)
->>>>>>> 81dc4b2 (Initial commit)
 
     class Meta:
         verbose_name = 'Хирург'
