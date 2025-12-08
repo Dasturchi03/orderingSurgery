@@ -27,3 +27,4 @@ uvicorn==0.38.0
 weasyprint==63.1
 webencodings==0.5.1
 zopfli==0.4.0
+whitenoise==6.11.0
