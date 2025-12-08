@@ -5,7 +5,7 @@ from django.shortcuts import render, HttpResponse, get_object_or_404, redirect
 from django.http.request import HttpRequest, UnreadablePostError
 from .models import Branch
 from django.http import HttpResponseRedirect, JsonResponse
-from .models import Surgery, Branch, SurgeryName, SurgeryType, Surgeon, SurgeryDay
+from .models import Surgery, Branch, SurgeryName, SurgeryType, Surgeon, SurgeryDay, SurgerySurgeon
 from .forms import SurgeryForm, SurgeryEditForm
 from .functions import get_next_surgery_day, get_day, get_next_30_days, get_or_create_surgery_day
 from django.db.models.functions import Lower
@@ -35,13 +35,36 @@ def home(request: HttpRequest):
             branches = []
         else:
             branches = Branch.objects.prefetch_related(
-                Prefetch('surgeries', queryset=Surgery.objects.filter(date_of_surgery=day).order_by('seq_number'))
+                Prefetch(
+                    'surgeries',
+                    queryset=Surgery.objects.filter(date_of_surgery=day)
+                    .order_by('seq_number')
+                    .prefetch_related(
+                        Prefetch(
+                            'surgeons',
+                            queryset=Surgeon.objects.all().order_by('surgerysurgeon__sequence'),
+                            to_attr='ordered_surgeons'
+                        )
+                    )
+                )
             ).order_by('branch_number')
+
     else:
         day = get_next_surgery_day()
         print(day)
         branches = Branch.objects.prefetch_related(
-            Prefetch('surgeries', queryset=Surgery.objects.filter(date_of_surgery=day).order_by('seq_number'))
+            Prefetch(
+                'surgeries',
+                queryset=Surgery.objects.filter(date_of_surgery=day)
+                .order_by('seq_number')
+                .prefetch_related(
+                    Prefetch(
+                        'surgeons',
+                        queryset=Surgeon.objects.all().order_by('surgerysurgeon__sequence'),
+                        to_attr='ordered_surgeons'
+                    )
+                )
+            )
         ).order_by('branch_number')
 
         queryset=Surgery.objects.filter(date_of_surgery=day)
@@ -127,12 +150,13 @@ def add_surgery(request: HttpRequest, branch_id):
         form = SurgeryForm(request.POST)
 
         if form.is_valid():
-            surgery, surgeons = form.save(commit=False)
+            surgery, sorted_surgeons = form.save(commit=False)
             surgery.branch = branch
             surgery.own_branch = branch
             surgery.seq_number = Surgery.objects.filter(branch__id=branch_id).filter(date_of_surgery=day).count() + 1
             surgery.save()
-            surgery.surgeons.set(surgeons)
+            for index, surgeon in enumerate(sorted_surgeons.split(',')):  
+                SurgerySurgeon.objects.create(surgery=surgery, surgeon_id=int(surgeon), sequence=index)
             return HttpResponseRedirect('/')
         else:
             print(form.errors)

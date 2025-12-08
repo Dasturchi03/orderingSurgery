@@ -22,6 +22,8 @@ def get_next_surgery_day():
     tomorrow = date.today() + timedelta(days=1)
     if tomorrow.isoweekday() == 7:
         tomorrow += timedelta(days=1)
+    elif tomorrow.isoweekday() == 6:
+        tomorrow += timedelta(days=2)
     tw_day = get_or_create_surgery_day(date=tomorrow)
 
     return tw_day

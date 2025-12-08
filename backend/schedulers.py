@@ -17,6 +17,6 @@ def mark_surgery_days_uneditable():
 
 def start_scheduler():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(mark_surgery_days_uneditable, 'cron', hour=15, minute=0)
+    scheduler.add_job(mark_surgery_days_uneditable, 'cron', hour=16, minute=0)
     scheduler.start()
     print("Scheduler started")
